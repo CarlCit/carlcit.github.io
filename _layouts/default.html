@@ -1,0 +1,89 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <main>
+    {% include anchor_headings.html html=content anchorBody="#" %}
+  </main>
+
+  <script>
+    function setTheme(theme) {
+      if (theme === "dark") {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        window.localStorage.setItem('theme', 'dark');
+        document.getElementById("theme-toggle").classList.add('sun');
+        document.getElementById("theme-toggle").classList.remove('moon');
+      } else {
+        document.documentElement.setAttribute('data-theme', 'light');
+        window.localStorage.setItem('theme', 'light');
+        document.getElementById("theme-toggle").classList.add('moon');
+        document.getElementById("theme-toggle").classList.remove('sun');
+      }
+    }
+
+    let theme = localStorage.getItem('theme');
+
+    theme = theme || (window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light' : 'light');
+
+    setTheme(theme);
+
+    function modeSwitcher() {
+      let currentMode = document.documentElement.getAttribute('data-theme');
+
+      if (currentMode === "dark") {
+        setTheme('light');
+      } else {
+        setTheme('dark');
+      }
+    }
+  </script>
+
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+<script>addBackToTop({
+  diameter: 48,
+  backgroundColor: 'rgb(196, 187, 240)',
+  textColor: 'black'
+})
+</script>
+
+
+</body>
+
+<footer class="social-footer">
+  <div class="social-footer-icons">
+    <a href="https://telegram.me/P0WEX" title="dm me" target="_blank" rel="noopener noreferrer"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+    <a href="mailto:p0wex@pm.me" title="Email me"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    <a href="https://github.com/" title="Github profile" target="_blank"
+      rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a>
+    <a href="{{site.url}}/atom.xml" title="RSS feed" target="_blank" rel="noopener noreferrer"><i
+        class="fa fa-rss" aria-hidden="true"></i></a>
+    <a href="https://github.com/DavideBri/Gesko" title="Browse the code" target="_blank" rel="noopener noreferrer"><i
+        class="fa fa-code" aria-hidden="true"></i></a>
+  </div>
+</footer>
+
+
+
+
+{% if page.url == '/' %}
+<script src="{{ site.url }}/assets/js/simple-jekyll-search.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('search-results'),
+    json: '{{ site.url }}/search.json',
+    searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+    noResultsText: 'No results found..',
+    limit: 10,
+    fuzzy: true,
+  })
+</script>
+{% endif %}
+
+
+</html>
