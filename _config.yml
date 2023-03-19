@@ -2,7 +2,7 @@
   title: 武汉同学
   description: >-
     一个喜欢折腾的数码爱好者
-  googlewebfonts: Noto+Serif+SC:wght@300;400;500 # Fira+Code:wght@300&Noto+Serif+SC:wght@300;400;500
+  googlewebfonts: Noto+Serif+SC:wght@300;400;500 # Fira+Code:wght@300;400;500
   lang: zh-CN
   timezone: Asia/Shanghai
   repo: https://songlin.me # site repo [optional]
