@@ -9,12 +9,12 @@
   data-theme: dark # default theme "dark" | "light"
 
   author:
-  name: DavideBri
-  bio: just a minimalist, personal blog
+  name: 武汉同学
+  bio: 一个喜欢折腾的数码爱好者，学习笔记分享。
   username: DavideBri # general username
-  github: DavideBri # github username
-  twitter: DavideBri # twitter username
-  email: powex@pm.me
+  github: CarlCit # github username
+  twitter: carlsonglin # twitter username
+  email: me@songlin.me
 
 # URL settings
 url: "songlin.me" #
