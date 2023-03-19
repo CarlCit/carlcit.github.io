@@ -548,7 +548,7 @@ $link-color: var(--link-color);
     display: block;
     width: 2px;
     height: 98%;
-    margin-left: -3px;
+    margin-left: 5px;
     background: var(--light-text-color);
     z-index: 5;
     @media(max-width: 375px) {
