@@ -153,8 +153,8 @@ html[data-theme="dark"] {
 }
 
 body {
-	font-family: "Fira CodeC", monospace;
-	text-rendering: auto;
+	font-family: var(--text-font), monospace;
+	text-rendering: optimizeLegibility;
 	line-height: 1.75;
 	color: var(--main-text-color);
 }
