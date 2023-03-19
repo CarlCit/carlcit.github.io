@@ -541,17 +541,16 @@ $link-color: var(--link-color);
     width: 100%;
   }
   &:before {
-    position: fixed;
+    position: absolute;
     left: 50%;
-    top: 100px;
-    bottom: 30px;
-    content: " ";
+    top: 0;
+    content: ' ';
     display: block;
     width: 6px;
-    height: 15%;
-    border-style: dashed;
+    height: 100%;
     margin-left: -3px;
-    color: var(--light-text-color);
+    background: var(--light-text-color);
+    z-index: 5;
     @media(max-width: 375px) {
       height: 150%;
     }
@@ -564,7 +563,7 @@ $link-color: var(--link-color);
     &::after {
       content: "";
       display: block;
-      //height: 150%;
+      height: 150%;
       clear: both;
       visibility: hidden;
     }
