@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg        # 显示在首页的背景图片
 email: me@songlin.me
 description:  "武汉同学是一个喜欢折腾的数码爱好者，博客记录个人学习笔记，折腾经验分享等。"     # 网站介绍
 keyword: "武汉同学,武汉,同学,博客,Carl,CarlのBlog"   # 关键词
-url: "https://carlcit.github.io"                 # 这个就是填写你的博客地址
-baseurl: "songlin.me/Hux"                         # 例如, '/blog' 你的博客位于 'host/blog'
+url: "https://carlcit.github.io/Hux"                 # 这个就是填写你的博客地址
+baseurl: "/"                         # 例如, '/blog' 你的博客位于 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -79,7 +79,7 @@ ga_domain: songlin.me
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏
 sidebar-about-description: "👋 一个喜欢折腾的数码爱好者<br>😍  产品 📱 💻 ⌚️ 🖥 🎧 🖱<br>📌 求知若渴，虚心若愚。<br>📮 me@songlin.me"  # 题图简单描述
-sidebar-avatar: /Hux/img/avatar.gif      # 使用绝对 URL 地址, 因为同时用于 `/` 和 `/about/`
+sidebar-avatar: /img/avatar.gif      # 使用绝对 URL 地址, 因为同时用于 `/` 和 `/about/`
 
 
 
