@@ -9,7 +9,6 @@ tags:
   - R2S
   - 数码
   - 风扇
-  -	OLED
   - OpenWrt
 ---
 
