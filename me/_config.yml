@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg        # 显示在首页的背景图片
 email: me@songlin.me
 description:  "武汉同学是一个喜欢折腾的数码爱好者，博客记录个人学习笔记，折腾经验分享等。"     # 网站介绍
 keyword: "武汉同学,武汉,同学,博客,Carl,CarlのBlog"   # 关键词
-url: "https://carlcit.github.io/Hux"                 # 这个就是填写你的博客地址
+url: "https://carlcit.github.io/me"                 # 这个就是填写你的博客地址
 baseurl: "/"                         # 例如, '/blog' 你的博客位于 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -72,7 +72,7 @@ kramdown:
 
 # Google Analytics
 ga_track_id: 'G-TYE2L3CZHS'            # Format: UA-xxxxxx-xx
-ga_domain: songlin.me
+ga_domain: songlin.me/me
 
 
 
