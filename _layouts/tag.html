@@ -6,8 +6,8 @@ layout: default
 
 <section class="posts">
   <div class="flex-row-between">
-    <h1>Tag #{{page.tag}}</h1>
-    <a href="{{ site.url }}{{ site.baseurl }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+    <h2>Tag #{{page.tag}}</h2>
+    <a href="{{ site.url }}{{ site.baseurl }}"><i class="fa fa-home" aria-hidden="true"></i>  Home</a>
   </div>
   <ul>
     {% for post in site.posts %}
@@ -20,7 +20,7 @@ layout: default
 </section>
 
 <section class="tags">
-  <h2>All tags:</h2>
+  <h2>All Tags:</h2>
   {% assign tags = site.tags | sort %}
   {% for tag in tags %}
   <ul>
