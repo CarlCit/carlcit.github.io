@@ -37,8 +37,10 @@
   
   
   {% if site.googlewebfonts %}
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family={{ site.googlewebfonts }}&display=swap" rel="stylesheet">
+
   {% endif %}
   
   <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
