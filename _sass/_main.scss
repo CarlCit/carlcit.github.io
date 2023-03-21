@@ -314,7 +314,7 @@ header ul {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	font-weight: bold;
+	font-weight: normal;
 }
 
 .posts li time,
@@ -329,7 +329,7 @@ time {
 }
 
 .post > h1.title {
-	font-size: medium;
+	font-size: x-large;
 	margin-top: 0;
 	margin-bottom: 0;
 }
