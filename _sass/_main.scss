@@ -33,6 +33,7 @@ html {
 }
 
 html,
+@media (prefers-color-scheme: dark) {
 html[data-theme="light"] {
 	--very-light-text-color: rgb(222, 222, 222);
 	--light-text-color: rgb(150, 150, 150);
@@ -93,7 +94,10 @@ html[data-theme="light"] {
 		}
 	}
 }
+}
 
+
+@media (prefers-color-scheme: light) {
 html[data-theme="dark"] {
 	--very-light-text-color: rgb(200,200,200);
 	--light-text-color: rgb(150, 150, 150);
@@ -151,6 +155,8 @@ html[data-theme="dark"] {
 		}
 	}
 }
+}
+
 
 body {
 	font-family: var(--text-font), monospace;

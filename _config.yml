@@ -9,7 +9,7 @@
   lang: zh-CN
   timezone: Asia/Shanghai
   repo: https://songlin.me # site repo [optional]
-  data-theme: dark # default theme "dark" | "light"
+  # data-theme: dark # default theme "dark" | "light"
 
   author:
   name: 武汉同学
