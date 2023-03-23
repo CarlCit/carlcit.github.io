@@ -1,0 +1,141 @@
+# Site settings
+title: 📮 CarlのBlog               # 你的博客网站标题
+SEOTitle: 武汉同学 📮 CarlのBlog    # SEO，显示在浏览器上搜索的时候显示的标题
+header-img: img/home-bg.jpg        # 显示在首页的背景图片
+email: me@songlin.me
+description:  "武汉同学是一个喜欢折腾的数码爱好者，博客记录个人学习笔记，折腾经验分享等。"     # 网站介绍
+keyword: "武汉同学,武汉,同学,博客,Carl,CarlのBlog,Blog"   # 关键词
+url: "https://new.songlin.me"                 # 这个就是填写你的博客地址
+baseurl: "/"                         # 例如, '/blog' 你的博客位于 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: true 
+# instagram_username: songlin.me
+weibo_username:     songlincarl
+# zhihu_username:     carlsonglin
+youtube_username:   UCctxtvu9G4AfYFabLWinYDg
+# github_username:  CarlCit
+twitter_username: carlsonglin
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+# disqus_username: carlcit
+
+# Netease settings
+# netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'G-TYE2L3CZHS'            # Format: UA-xxxxxx-xx
+ga_domain: songlin.me
+
+
+
+# Sidebar settings
+sidebar: true                           # 是否开启侧边栏
+sidebar-about-description: "👋 一个喜欢折腾的数码爱好者<br>😍  产品 📱 💻 ⌚️ 🖥 🎧 🖱<br>📌 求知若渴，虚心若愚。<br>📮 me@songlin.me"  # 题图简单描述
+sidebar-avatar: /img/avatar.gif      # 使用绝对 URL 地址, 因为同时用于 `/` 和 `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用要素标记
+featured-condition-size: 3              # 使用该标签的文章数大于上面设定的条件值，这个标签就会在首页上被推荐
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+# Friends
+friends: [
+    {
+        title: "Hux Blog",
+        href: "https://huangxuan.me"
+    },{
+        title: "maxOS",
+        href: "https://maxoxo.me"
+    },{
+        title: "Kimen's",
+        href: "https://blog.kimen.com.cn"
+    },{
+        title: "书山有路",
+        href: "https://sumju.net"
+    },{
+        title: "雨戈林多",
+        href: "https://moonagic.com"
+    },{
+        title: "Sleele",
+        href: "https://sleele.com"
+    },{
+        title: "Sukka",
+        href: "https://blog.skk.moe"
+    },{
+        title: "MARKSZ",
+        href: "https://molunerfinn.com"
+    },{
+        title: "Bryce Yang",
+        href: "https://todebug.com"
+    },{
+        title: "思有云",
+        href: "https://www.ioiox.com"
+    },{
+        title: "DIYgod",
+        href: "https://diygod.me"
+    },{
+        title: "OldPanda",
+        href: "https://old-panda.com"
+    }
+]
