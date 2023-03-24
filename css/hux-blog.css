@@ -1,3 +1,95 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #ce5654;
+    --main-heading-color: #F9F9F9;
+    --bg-color: #323232;
+    --title-font-deactived: #F9F9F9;
+    --title-font-acivated: ;
+    --subtitle-font-deactivated: #F9F9F9;
+    --subtitle-font-activated: #F9F9F9;
+    --main-border-color: #8c8c8c;
+
+    --search-page: rgba(20, 20, 20, 0.9);
+    --search-bar: #F9F9F9;
+    --search-color: #323232;
+    --selection-color:  rgba(0, 105, 189, 0.45);
+    --sidebar-main: #a3a3a3;
+    --sidebar-aux: #bfbfbf;
+
+    --next-btn-border-deactivated: #F9F9F9;
+    --next-btn-border-activated: #ce5654;
+    --next-btn-text-deactivated: #F9F9F9;
+    --next-btn-text-activated: #323232;
+
+    --post-heading: #F9F9F9;
+    --main-strong-color: rgba(190, 235, 255, 1);
+    --main-code-color: #BEE2FF;
+    --main-code-bg: #ce5654;
+    --main-post-header: #F9F9F9;
+    --quote-color: rgba(255, 255, 255, 0.1);
+    user-select: text;
+    -webkit-user-select: text;
+  }  
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --main-color: #ce5654;
+    --main-heading-color: #F9F9F9;
+    --bg-color: rgba(221, 221, 221, 1);
+    --title-font-deactived: #000000;
+    --title-font-acivated: ;
+    --subtitle-font-deactivated: #000000;
+    --subtitle-font-activated: #FFFFFF;
+    --main-border-color: #8c8c8c;
+
+    --search-page: rgba(255, 255, 255, 0.9);
+    --search-bar: #323232;
+    --search-color: #F9F9F9;
+    --selection-color:  rgba(0, 105, 189, 0.85);
+    --sidebar-main: #404040;
+    --sidebar-aux: #555555;
+
+    --next-btn-border-deactivated: #000000;
+    --next-btn-border-activated: #ce5654;
+    --next-btn-text-deactivated: #000000;
+    --next-btn-text-activated: #323232;
+
+    --post-heading: #F9F9F9;
+    --main-strong-color: #ce5654;
+    --main-code-color: #BEE2FF;
+    --main-code-bg: #ce5654;
+    --main-post-header: #000000;
+    --quote-color: rgba(0, 0, 0, 0.1);
+    user-select: text;
+    -webkit-user-select: text;
+  }
+}
+
+
+
+body {
+  background-color: var(--bg-color);
+  user-select: text;
+  margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.main-container {
+  background-color: var(--bg-color);
+  padding-top: 20px;
+}
+
+
+
+
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
