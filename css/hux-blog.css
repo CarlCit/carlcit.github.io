@@ -1,8 +1,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-color: #ce5654;
+    --main-color: #ce5654; /* 主色调 */
     --main-heading-color: #F9F9F9;
-    --bg-color: #181818;
+    --bg-color: #181818; /* 暗黑主题色 */
+    --main-context-color: #dadada; /* 文章文字 */
     --title-font-deactived: #F9F9F9;
     --title-font-acivated: ;
     --subtitle-font-deactivated: #F9F9F9;
@@ -220,7 +221,7 @@ body {
 }
 .side-catalog .catalog-body .active {
   border-radius: 4px;
-  background-color: #f5f5f5;
+  background-color: #000000;
 }
 .side-catalog .catalog-body .active a {
   color: #ce5654 !important;
@@ -420,7 +421,7 @@ pre.highlight {
   background-color: #1e0010;
 }
 .language-coq .highlight .err {
-  background-color: transparent;
+  background-color: #989898;
 }
 .highlight .k,
 .language-coq .highlight .err {
@@ -746,14 +747,11 @@ pre.highlight {
   font-size: 16px;
 }
 body {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
+
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   font-size: 16px;
-  color: #404040;
+  color: var(--main-context-color);
   overflow-x: hidden;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -838,7 +836,7 @@ table.table > tbody th,
 table.table > thead th,
 table.table > tbody td,
 table.table > thead td {
-  border: 1px solid #eee !important;
+  border: 1px solid #333 !important;
 }
 @media screen and (max-width: 767px) {
   .table-responsive {
