@@ -4,13 +4,15 @@
     --main-heading-color: #F9F9F9;
     --bg-color: #181818; /* 暗黑主题色 */
     --main-context-color: #dadada; /* 文章文字 */
+    --text-navbar: #dadada; /* 导航菜单 */
     --title-font-deactived: #F9F9F9;
     --title-font-acivated: ;
     --subtitle-font-deactivated: #F9F9F9;
     --subtitle-font-activated: #F9F9F9;
     --main-border-color: #8c8c8c;
 
-    --search-page: rgba(20, 20, 20, 0.9);
+    --search-page: #181818; /* 搜索页背景 */
+    --search-text: #dadada; /* 搜索字 */
     --search-bar: #F9F9F9;
     --search-color: #323232;
     --selection-color:  rgba(0, 105, 189, 0.45);
@@ -670,7 +672,7 @@ pre.highlight {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background: #fff;
+  background: var(--search-page);
   -webkit-transition: all 400ms cubic-bezier(0.32, 1, 0.23, 1);
   transition: all 400ms cubic-bezier(0.32, 1, 0.23, 1);
   -webkit-transform: translate(0, 100%);
@@ -717,7 +719,7 @@ pre.highlight {
   width: 100%;
   font-size: 30px;
   font-weight: bold;
-  color: #404040;
+  color: #dadada;
 }
 @media only screen and (min-width: 768px) {
   .search-page #search-input {
@@ -734,7 +736,7 @@ pre.highlight {
 .search-icon-close {
   cursor: pointer;
   font-size: 30px;
-  color: #311e3e;
+  color: var(--search-text);
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
 }
@@ -771,10 +773,7 @@ h3,
 h4,
 h5,
 h6 {
-  /* Hux learn from
-     *     TypeIsBeautiful,
-     *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
-     */
+
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
   line-height: 1.7;
   line-height: 1.1;
@@ -1133,14 +1132,14 @@ samp {
   background-color: #404040;
 }
 .navbar-custom.invert .navbar-brand {
-  color: #404040;
+  color: var(--text-navbar);
 }
 .navbar-custom.invert .navbar-brand:hover,
 .navbar-custom.invert .navbar-brand:focus {
   color: #ce5654;
 }
 .navbar-custom.invert .nav li a {
-  color: #404040;
+  color: var(--text-navbar);
 }
 .navbar-custom.invert .nav li a:hover,
 .navbar-custom.invert .nav li a:focus {
@@ -1211,7 +1210,7 @@ samp {
 .intro-header.style-text .post-heading,
 .intro-header.style-text .page-heading {
   padding: 85px 0 20px;
-  color: #404040;
+  color: var(--text-navbar);
 }
 .intro-header.style-text .site-heading .subheading,
 .intro-header.style-text .post-heading .subheading,
@@ -1220,8 +1219,8 @@ samp {
 }
 .intro-header.style-text .tags a,
 .intro-header.style-text .tags .tag {
-  border-color: #404040;
-  color: #404040;
+  border-color: var(--text-biaot-caidan);
+  color: var(--text-biaot-caidan);
 }
 .intro-header.style-text .tags a:hover,
 .intro-header.style-text .tags .tag:hover,
