@@ -2,21 +2,20 @@
   :root {
     --main-color: #ce5654; /* 主色调 */
     --bg-color: #181818; /* 暗黑主题色 */
-    --main-context-color: #dadada; /* 文章文字 */
-    --text-navbar: #dadada; /* 导航菜单 */
+    --main-context-color: #bfbfbf; /* 文章文字 */
+    --text-navbar: #bfbfbf; /* 导航菜单 */
     --catalog-body-color: #000000; /* 文章侧目录 */
     --hr-border-color: #282828; /* 分割线 */
    
     --search-page: #181818; /* 搜索页背景 */
-    --search-text: #dadada; /* 搜索字 */
+    --search-text: #bfbfbf; /* 搜索字 */
     --search-bar: #181818; /* 搜索框背景 */
 
     --navbar-collapse-background: #181818; /* 导航背景*/
     --navbar-collapse-text: #404040; /* 导航文字*/
-    --phone-navbar-color: #dadada; /* 手机导航*/
 
     --next-btn-border-deactivated: #dadada; /* 下一页文字 */
-    --post-preview-color: #dadada; /* 首页文章标题 */
+    --post-preview-color: #bfbfbf; /* 首页文章标题 */
     --pages-background-color: #181818; /* 下一页填充 */
     user-select: text; /* 防复制文字 */
     -webkit-user-select: text; /* 防复制文字 */
@@ -38,7 +37,6 @@
 
     --navbar-collapse-background: #fff; /* 导航背景*/
     --navbar-collapse-text: #404040; /* 导航文字*/
-    --phone-navbar-color: #404040; /* 手机导航*/
 
     --next-btn-border-deactivated: #000000; /* 下一页文字 */
     --post-preview-color: #404040; /* 首页文章标题 */
