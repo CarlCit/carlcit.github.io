@@ -5,7 +5,7 @@ subtitle: "Windows + Office + kms"
 date: 2021-11-25
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [Windows,Office]
+tags: [OpenWrt]
 ---
 
 

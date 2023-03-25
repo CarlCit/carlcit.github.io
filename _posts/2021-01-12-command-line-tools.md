@@ -6,8 +6,7 @@ date: 2021-01-12
 author: "Carl"
 header-img: "img/post-bg.jpg"
 tags: 
-  - Apple
-  - Terminal
+  - macOS
 ---
 
 

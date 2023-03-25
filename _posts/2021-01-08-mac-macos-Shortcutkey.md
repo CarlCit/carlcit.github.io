@@ -8,9 +8,8 @@ header-img: "img/post-bg.jpg"
 header-style: text
 mathjax: true
 tags: 
-  - Apple
+  - macOS
   - 快捷键
-  - 特殊符号
 ---
 
 Mac 电脑 macOS 常用特殊字符输入法：

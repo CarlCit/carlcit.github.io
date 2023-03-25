@@ -5,7 +5,7 @@ subtitle: "威联通安装homeassistant"
 date: 2022-09-11
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [家居,NAS]
+tags: [NAS]
 ---
 
 ### 威联通安装错误

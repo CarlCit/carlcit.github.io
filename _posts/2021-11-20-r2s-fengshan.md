@@ -3,7 +3,7 @@ layout: post
 title: "R2S添加风扇控制和OLED屏幕"
 subtitle: "R2S + start-rk3328-pwm-fan.sh"
 date: 2021-11-20
-tags: [R2S,数码,OpenWrt]
+tags: [数码,OpenWrt]
 ---
 
 

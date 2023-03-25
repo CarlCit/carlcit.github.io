@@ -7,7 +7,6 @@ author: "Carl"
 header-img: "img/post-bg.jpg"
 tags: 
   - NAS
-  - Docker
 ---
 
 

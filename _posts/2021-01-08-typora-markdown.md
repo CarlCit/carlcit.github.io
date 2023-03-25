@@ -9,7 +9,6 @@ header-mask: 0.3
 mathjax: true
 tags: 
   - 软件
-  - Markdown
 ---
 
 

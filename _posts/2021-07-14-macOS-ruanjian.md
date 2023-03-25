@@ -6,8 +6,8 @@ date: 2021-07-14
 author: "Carl"
 header-img: "img/post-bg.jpg"
 tags: 
-  - Apple
-  - 安全
+  - macOS
+  - Tips
 ---
 
 

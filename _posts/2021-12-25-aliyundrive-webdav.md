@@ -5,7 +5,7 @@ subtitle: "QNAP + aliyundrive + WebDAV + Infuse"
 date: 2021-12-25
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [数码,NAS]
+tags: [NAS]
 ---
 
 由于在 Apple TV 4K 使用 Infuse 软件，可以添加 WebDAV 服务让观看影视剧变得更方便。刚好有威联通的 NAS 就在其中安装了此服务，使用了有半年体验非常不错，稳定没有失效。

@@ -8,8 +8,6 @@ mathjax: true
 header-img: "img/post-bg.jpg"
 tags: 
   - 博客
-  - Jekyll
-  - Markdown
 ---
 
 

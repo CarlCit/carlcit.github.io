@@ -6,8 +6,7 @@ date: 2021-01-15
 author: "Carl"
 header-img: "img/post-bg.jpg"
 tags: 
-  - Chrome
-  - Safari
+  - 浏览器
 
 ---
 

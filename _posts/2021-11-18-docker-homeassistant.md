@@ -5,7 +5,7 @@ subtitle: "R2S + OpenWrt + Docker + HomeAssistant"
 date: 2021-11-18
 author: "Carl"
 header-style: text
-tags: [家居,R2S,OpenWrt
+tags: [OpenWrt]
 ---
 
 R2S 使用固件 [Docker版_稳定精简](https://github.com/DHDAXCW/NanoPi-R2S-2021) 自带 Docker ，在其中安装 HASSIO（HomeAssistant）。

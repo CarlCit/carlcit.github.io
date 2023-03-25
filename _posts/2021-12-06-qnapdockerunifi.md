@@ -5,7 +5,7 @@ subtitle: "QNAP + Docker + UniFi"
 date: 2021-12-06
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [数码,NAS]
+tags: [NAS]
 ---
 
 

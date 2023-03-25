@@ -8,7 +8,6 @@ header-img: "img/post-bg.jpg"
 mathjax: true
 tags: 
   - 博客
-  - Jekyll
   - GitHub
 ---
 
