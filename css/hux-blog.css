@@ -12,7 +12,7 @@
     --search-bar: #181818; /* 搜索框背景 */
 
     --navbar-collapse-background: #181818; /* 导航背景*/
-    --navbar-collapse-text: #fff; /* 导航文字*/
+    --navbar-collapse-text: #555555; /* 导航文字*/
 
     --next-btn-border-deactivated: #dadada; /* 下一页文字 */
     --post-preview-color: #dadada; /* 首页文章标题 */
@@ -36,7 +36,7 @@
     --search-bar: #fff; /* 搜索框背景 */
 
     --navbar-collapse-background: #fff; /* 导航背景*/
-    --navbar-collapse-text: #181818; /* 导航文字*/
+    --navbar-collapse-text: #555555; /* 导航文字*/
 
     --next-btn-border-deactivated: #000000; /* 下一页文字 */
     --post-preview-color: #404040; /* 首页文章标题 */
