@@ -24,8 +24,8 @@
   :root {
     --main-color: #ce5654; /* 主色调 */
     --bg-color: #fff; /* 明亮主题色 */
-    --main-context-color: #dadada; /* 文章文字 */
-    --text-navbar: #dadada; /* 导航菜单 */
+    --main-context-color: #404040; /* 文章文字 */
+    --text-navbar: #404040; /* 导航菜单,文章标题 */
     --catalog-body-color: #bfbfbf; /* 文章侧目录 */
     --hr-border-color: #a3a3a3; /* 分割线 */
 
@@ -35,8 +35,8 @@
 
     --next-btn-border-deactivated: #000000; /* 下一页文字 */
     
-    --post-preview-color: #dadada; /* 首页文章标题 */
-    --pages-background-color: #181818; /* 下一页填充 */
+    --post-preview-color: #404040; /* 首页文章标题 */
+    --pages-background-color: #fff; /* 下一页填充 */
     user-select: text; /* 防复制文字 */
     -webkit-user-select: text; /* 防复制文字 */
   }
@@ -194,7 +194,7 @@ body {
 }
 .side-catalog .catalog-body .active {
   border-radius: 4px;
-  background-color: #000000;
+  background-color: var(--catalog-body-color);
 }
 .side-catalog .catalog-body .active a {
   color: #ce5654 !important;
@@ -690,7 +690,7 @@ pre.highlight {
   width: 100%;
   font-size: 30px;
   font-weight: bold;
-  color: #dadada;
+  color: var(--search-text);
   background-color: var(--search-bar);
 }
 @media only screen and (min-width: 768px) {
@@ -1397,7 +1397,7 @@ samp {
 }
 footer {
   font-size: 20px;
-  padding: 50px 0 65px;
+  padding: 30px 0 15px;
 }
 footer .list-inline {
   margin: 0;
