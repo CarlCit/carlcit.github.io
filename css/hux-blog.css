@@ -11,8 +11,10 @@
     --search-text: #bfbfbf; /* 搜索字 */
     --search-bar: #181818; /* 搜索框背景 */
 
-    --navbar-collapse-background: #181818; /* 导航背景*/
-    --navbar-collapse-text: #404040; /* 导航文字*/
+    --navbar-collapse-background: #181818; /* 导航背景 */
+    --navbar-collapse-text: #404040; /* 导航文字 */
+    --navbar-fixed-color: rgba(255, 255, 255, 0.9); /* 导航弹窗 */
+    --nacbar-fixed-px-color: #f2f2f2; /* 导航弹窗 */
 
     --next-btn-border-deactivated: #dadada; /* 下一页文字 */
     --post-preview-color: #bfbfbf; /* 首页文章标题 */
@@ -37,6 +39,8 @@
 
     --navbar-collapse-background: #fff; /* 导航背景*/
     --navbar-collapse-text: #404040; /* 导航文字*/
+    --navbar-fixed-color: rgba(191, 191, 191, 0.9); /* 导航弹窗 */
+    --nacbar-fixed-px-color: #909090; /* 导航弹窗 */
 
     --next-btn-border-deactivated: #000000; /* 下一页文字 */
     --post-preview-color: #404040; /* 首页文章标题 */
