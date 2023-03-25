@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Homebrew 安装和基本用法"
+title: "Homebrew安装和基本用法"
 subtitle: "macOS + Homebrew"
 date: 2021-11-25
 author: "Carl"

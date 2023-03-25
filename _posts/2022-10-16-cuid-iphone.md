@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "CUID 门禁卡 iPhone 解决方案"
+title: "CUID门禁卡iPhone解决方案"
 subtitle: "CUID 门禁卡 + iPhone"
 date: 2022-10-16
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [Apple,家居,生活,工具,软件]
+tags: [家居,生活]
 ---
 
 

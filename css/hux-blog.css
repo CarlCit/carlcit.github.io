@@ -803,7 +803,7 @@ select {
   color: #ce5654;
   border-color: #ce5654;
   padding: 0em 0.4em;
-  background: white;
+  background: var(--hr-border-color);
 }
 select.sel-lang {
   min-height: 28px;

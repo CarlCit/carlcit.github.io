@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "创建可引导的 macOS 安装器U盘启动盘"
+title: "创建可引导的macOS安装器U盘启动盘"
 subtitle: "macOS + U盘"
 date: 2021-11-11
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [Apple,U盘,Tips]
+tags: [macOS]
 ---
 
 

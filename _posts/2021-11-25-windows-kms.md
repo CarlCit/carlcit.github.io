@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "kms 在线激活 Windows & Office"
+title: "kms在线激活Windows&Office"
 subtitle: "Windows + Office + kms"
 date: 2021-11-25
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [工具,Windows,Office,kms,OpenWrt]
+tags: [Windows,Office]
 ---
 
 

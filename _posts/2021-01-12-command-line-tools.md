@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "macOS 命令工具 Command Line Tools"
+title: "macOS命令工具Command Line Tools"
 subtitle: "介绍、安装、使用"
 date: 2021-01-12
 author: "Carl"
@@ -8,7 +8,6 @@ header-img: "img/post-bg.jpg"
 tags: 
   - Apple
   - Terminal
-  - 软件
 ---
 
 

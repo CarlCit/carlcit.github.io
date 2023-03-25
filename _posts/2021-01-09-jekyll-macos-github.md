@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "macOS 安装 Jekyll 博客并发布到 GitHub Pages"
+title: "macOS安装Jekyll博客并发布到GitHub Pages"
 subtitle: "Jekyll + macOS + GitHub"
 date: 2021-01-09
 author: "Carl"
@@ -9,7 +9,6 @@ mathjax: true
 tags: 
   - 博客
   - Jekyll
-  - Apple
   - GitHub
 ---
 

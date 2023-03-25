@@ -1,13 +1,11 @@
 ---
 layout: post
-title: "QNAP威联通 NAS 使用 Docker 安装青龙面板"
+title: "QNAP威联通NAS使用Docker安装青龙面板"
 subtitle: "QNAP + Docker + qinglong"
 date: 2021-11-25
 author: "Carl"
 header-img: "img/post-bg.jpg"
 tags: 
-  - 工具
-  - 青龙
   - NAS
   - Docker
 ---

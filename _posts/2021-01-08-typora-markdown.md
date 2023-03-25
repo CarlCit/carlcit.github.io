@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Typora 的 Markdown 使用语法格式"
+title: "Typora的Markdown使用语法格式"
 subtitle: "编辑器 Typora 中如何使用 Markdown 语法"
 date: 2021-01-08
 author: "Carl"
@@ -9,7 +9,6 @@ header-mask: 0.3
 mathjax: true
 tags: 
   - 软件
-  - Typora
   - Markdown
 ---
 

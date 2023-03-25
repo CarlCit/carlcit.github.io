@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "R2S 固件 OpenWrt 使用 SSH 免密码登陆"
+title: "R2S固件OpenWrt使用SSH免密码登陆"
 subtitle: "macOS + OpenWrt + SSH"
 date: 2021-12-06
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [工具,OpenWrt,ssh,R2S,软路由]
+tags: [OpenWrt]
 ---
 
 经常需要登陆一下 R2S 折腾，每次输入密码麻烦，为了减少麻烦，使用密钥登陆方便快捷也安全。

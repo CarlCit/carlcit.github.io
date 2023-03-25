@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll 博客 Markdown 的 Kramdown 解析器"
+title: "Jekyll博客Markdown的Kramdown解析器"
 subtitle: "编辑器常用语法"
 date: 2021-01-13
 author: "Carl"
@@ -10,8 +10,6 @@ tags:
   - 博客
   - Jekyll
   - Markdown
-  - Kramdown
-  - LaTeX
 ---
 
 

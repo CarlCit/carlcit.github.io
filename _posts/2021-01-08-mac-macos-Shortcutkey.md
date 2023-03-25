@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mac 电脑 macOS 系统常用特殊字符输入法"
+title: "Mac电脑macOS系统常用特殊字符输入法"
 subtitle: "特殊字符快捷键"
 date: 2021-01-08
 author: "Carl"

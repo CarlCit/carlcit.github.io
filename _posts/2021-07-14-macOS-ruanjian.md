@@ -1,13 +1,12 @@
 ---
 layout: post
-title: "macOS 安装软件允许任何来源"
+title: "macOS安装软件允许任何来源"
 subtitle: "macOS 软件安装"
 date: 2021-07-14
 author: "Carl"
 header-img: "img/post-bg.jpg"
 tags: 
   - Apple
-  - 软件
   - 安全
 ---
 

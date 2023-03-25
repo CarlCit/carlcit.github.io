@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "威联通QNAP 使用 ContainerStation 安装 UniFi 控制器"
+title: "威联通QNAP使用ContainerStation安装 UniFi控制器"
 subtitle: "QNAP + Docker + UniFi"
 date: 2021-12-06
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [数码,NAS,Docker,UniFi]
+tags: [数码,NAS]
 ---
 
 

@@ -6,8 +6,6 @@ date: 2021-01-15
 author: "Carl"
 header-img: "img/post-bg.jpg"
 tags: 
-  - 工具
-  - 软件
   - Chrome
   - Safari
 
