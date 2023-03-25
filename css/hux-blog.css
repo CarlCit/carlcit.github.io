@@ -1113,7 +1113,7 @@ samp {
   background-color: rgba(0, 0, 0, 0.05);
 }
 .navbar-custom.invert .navbar-toggle .icon-bar {
-  background-color: var(--navbar-collapse-background);
+  background-color: var(--navbar-collapse-text);
 }
 .navbar-custom.invert .navbar-brand {
   color: var(--text-navbar);
