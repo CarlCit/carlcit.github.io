@@ -12,7 +12,7 @@
     --search-bar: #181818; /* 搜索框背景 */
 
     --navbar-collapse-background: #181818; /* 导航背景 */
-    --navbar-collapse-text: #404040; /* 导航文字 */
+    --navbar-collapse-text: #888888; /* 导航文字 */
     --navbar-fixed-color: rgba(255, 255, 255, 0.9); /* 导航弹窗 */
     --nacbar-fixed-px-color: #f2f2f2; /* 导航弹窗 */
 
@@ -38,7 +38,7 @@
     --search-bar: #fff; /* 搜索框背景 */
 
     --navbar-collapse-background: #fff; /* 导航背景*/
-    --navbar-collapse-text: #404040; /* 导航文字*/
+    --navbar-collapse-text: #888888; /* 导航文字*/
     --navbar-fixed-color: rgba(191, 191, 191, 0.9); /* 导航弹窗 */
     --nacbar-fixed-px-color: #909090; /* 导航弹窗 */
 
@@ -1151,8 +1151,8 @@ samp {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-bottom: 1px solid #f2f2f2;
+    background-color: var(--navbar-fixed-color);
+    border-bottom: 1px solid var(--nacbar-fixed-px-color);
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
