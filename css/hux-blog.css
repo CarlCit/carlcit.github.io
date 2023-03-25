@@ -12,7 +12,8 @@
     --search-bar: #181818; /* 搜索框背景 */
 
     --navbar-collapse-background: #181818; /* 导航背景*/
-    --navbar-collapse-text: #555555; /* 导航文字*/
+    --navbar-collapse-text: #404040; /* 导航文字*/
+    --phone-navbar-color: #dadada; /* 手机导航*/
 
     --next-btn-border-deactivated: #dadada; /* 下一页文字 */
     --post-preview-color: #dadada; /* 首页文章标题 */
@@ -36,7 +37,8 @@
     --search-bar: #fff; /* 搜索框背景 */
 
     --navbar-collapse-background: #fff; /* 导航背景*/
-    --navbar-collapse-text: #555555; /* 导航文字*/
+    --navbar-collapse-text: #404040; /* 导航文字*/
+    --phone-navbar-color: #404040; /* 手机导航*/
 
     --next-btn-border-deactivated: #000000; /* 下一页文字 */
     --post-preview-color: #404040; /* 首页文章标题 */
@@ -1116,7 +1118,7 @@ samp {
   background-color: var(--navbar-collapse-text);
 }
 .navbar-custom.invert .navbar-brand {
-  color: var(--text-navbar);
+  color: var(--navbar-collapse-text);
 }
 .navbar-custom.invert .navbar-brand:hover,
 .navbar-custom.invert .navbar-brand:focus {
