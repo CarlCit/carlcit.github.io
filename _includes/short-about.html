@@ -3,7 +3,7 @@
   <h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
   <div class="short-about">
     {% if site.sidebar-avatar %}
-    <video width="200" autoplay loop muted><source src="{{site.sidebar-avatar}}" type="video/mp4">抱歉，您的浏览器不支持内嵌视频，建议您升级或更换浏览器后查看</video>
+    <video width="200" style="border-radius: 10px;" autoplay loop muted><source src="{{site.sidebar-avatar}}" type="video/mp4">抱歉，您的浏览器不支持内嵌视频，建议您升级或更换浏览器后查看</video>
     {% endif %}
     {% if site.sidebar-about-description %}
     <p>{{site.sidebar-about-description}}</p>
