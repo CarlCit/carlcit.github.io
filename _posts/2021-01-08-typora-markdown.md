@@ -228,6 +228,10 @@ This is [an example](https://example.com/ "Title") inline link.
 
 [此链接](https://example.net/)没有 title 属性。（`<p><a href="http://example.net/">This link</a> has no`）
 
+##### 跳转到新标签页打开
+
+`[This link](https://example.net/){:target="_blank"}`
+
 ####  内部链接
 
 **您可以将href设置为标题**，这将创建一个书签，允许您在单击后跳转到该部分。例如：
