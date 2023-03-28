@@ -51,6 +51,6 @@ Hi，我是 Carl
 [服务状态 - 点击跳转查看](https://stats.uptimerobot.com/yxllYc7Z32){:target="_blank"}
 
 <div>
-  <iframe src="https://songlin.me/uptime/" width="50%" height="500"></iframe>
+  <iframe src="https://songlin.me/uptime/" width="100%" height="300"></iframe>
 </div>
 

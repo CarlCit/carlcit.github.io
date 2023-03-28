@@ -1,7 +1,7 @@
 window.Config = {
 
   // 显示标题
-  SiteName: '服务状态 API',
+  SiteName: '服务状态',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only
@@ -10,10 +10,10 @@ window.Config = {
   ],
 
   // 日志天数
-  CountDays: 90,
+  CountDays: 30,
 
   // 是否显示检测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // 导航栏菜单
   Navi: [
@@ -21,9 +21,6 @@ window.Config = {
       text: 'UptimeRobot',
       url: 'https://stats.uptimerobot.com/yxllYc7Z32'
     },
-    {
-      text: 'Blog',
-      url: 'https://songlin.me'
-    },
+
   ],
 };
