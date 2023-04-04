@@ -102,9 +102,6 @@ page-mathjax: false
 # Friends
 friends: [
     {
-        title: "Hux Blog",
-        href: "https://huangxuan.me"
-    },{
         title: "maxOS",
         href: "https://maxoxo.me"
     },{
