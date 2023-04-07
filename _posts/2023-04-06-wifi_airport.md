@@ -185,12 +185,18 @@ alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A
 source ~/.zshrc
 ```
 
+另外一种添加方式（这种添加好像更好，可以显示 BSSID，上面方法无法使用 sudo）
+
+```zsh
+sudo ln -s /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport /usr/local/bin/airport
+```
+
 
 
 使用 terminal 命令  获取附近的 Wi-Fi 信号列表：
 
 ```zsh
-airport -s
+sudo airport -s
 ```
 
 
@@ -262,7 +268,7 @@ cd /Users/Carl/Downloads/wifi
 获取 Wi-Fi 列表信息
 
 ```zsh
-airport -s
+sudo airport -s
 ```
 
 ![截屏2023-04-07 00.33.49](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202304070053290.png)
@@ -274,7 +280,7 @@ airport -s
 监听信道：`36` （信道选择根据上面获取的wifi列表想要连接的）
 
 ```zsh
-airport en0 sniff 36
+sudo airport en0 sniff 36
 ```
 
 如果提示错误，权限不够
