@@ -320,12 +320,12 @@ sudo aircrack-ng /tmp/airportSniffxxxxx.cap
 
 字典文件：`321.txt`
 
-握手包：`/tmp/airportSniffxxxxxx.cap`
+握手包：`/tmp/airportSniffxxxxxx.cap` 将包文件移动到刚刚创建的 wifi 文件夹中
 
 破解命令如下：
 
 ```zsh
-sudo aircrack-ng -w 321.txt /tmp/airportSniffxxxxxx.cap
+sudo aircrack-ng -w 321.txt airportSniffxxxxxx.cap
 ```
 
 抓包成功图：
@@ -354,7 +354,9 @@ sudo aircrack-ng -w 321.txt /tmp/airportSniffxxxxxx.cap
 
 
 
+## 感受
 
+使用了后发现 密码字典 是非常关键的，M1 Pro 的性能算可以的了，一个 1.2G 的字典需要 3个小时破解有点效率低，而且还没有成功。
 
 
 
