@@ -79,7 +79,7 @@ ga_domain: songlin.me
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏
 sidebar-about-description: "👋 一个喜欢折腾的数码爱好者<br>😍  产品 📱 💻 ⌚️ 🖥 🎧 🖱<br>📌 求知若渴，虚心若愚。<br>📮 me@songlin.me"  # 题图简单描述
-sidebar-avatar: /img/Earth.mp4     # 使用绝对 URL 地址, 因为同时用于 `/` 和 `/about/`
+sidebar-avatar: /img/Earth_hevc.mp4     # 使用绝对 URL 地址, 因为同时用于 `/` 和 `/about/`
 
 
 
