@@ -6,7 +6,7 @@ subtitle: "WiFi+airport+aircrack-ng"
 date: 2023-04-06
 author: "Carl"
 header-img: "img/post-bg.jpg"
-tags: [WiFi,macO,软件]
+tags: [WiFi,macOS,软件]
 
 ---
 
