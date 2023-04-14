@@ -103,7 +103,19 @@ sudo port -fp uninstall installed
 
 
 
-### aircrack-ng
+### Aircrack-ng
+
+> Aircrack-ng 是一款用于破解无线网络密码的开源工具，它可以通过采集无线网络的数据包并通过暴力破解等方式来猜测出无线网络的密码。它是一个非常受欢迎的无线网络安全工具，可以用于评估无线网络的安全性、测试无线网络的弱点、检测无线网络攻击等，是网络安全工程师和渗透测试员必备的工具之一。
+
+>Aircrack-ng 工具主要包含以下几个功能：
+>1. 无线网络抓包：可以通过无线网卡进行数据包抓取并进行保存。
+>2. 密码破解：可以使用字典攻击、暴力破解等方法破解无线网络密码。
+>3. 子功能支持：可以通过支持多个插件和子工具来增强其功能。
+>4. 易用性：具有简单的命令行界面，易于使用。
+
+
+
+
 
 在 macOS 上安装 aircrack-ng 需要使用类似 MacPorts 或 Homebrew 的软件包管理器。以下是使用 MacPorts 和 Homebrew 安装 aircrack-ng 的步骤：
 
@@ -167,7 +179,21 @@ brew uninstall aircrack-ng
 
 
 
-### airport
+### Airport
+
+>在 macOS 操作系统中，airport 是一个用于管理无线局域网的命令行工具。 它可以用来扫描无线网络并显示他们的各种详细信息，如网络名称、频率、信号强度等，也可以通过它连接、断开和管理无线网络设置和选项。
+
+>以下是一些常见的 airport 命令：
+
+>1. airport -s：扫描可用的无线网络并列出它们的详细信息，可以看到网络名称、信号强度、加密等信息。
+>2. airport -I：列出当前已连接的无线网络的详细信息，包括无线接口名称、MAC 地址、IP 地址等。
+>3. airport -z：断开当前连接的无线网络。
+>4. airport -A：以管理员权限启动 AirPort 实用程序。
+>5. airport -c channel：设置无线网络的频道。
+
+>请注意，在使用 airport 命令时，请确保使用正确的权限和参数，以避免不必要的问题。
+
+
 
 macOS 系统自带 airport 工具软件，默认路径为：/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport
 
@@ -357,6 +383,140 @@ sudo aircrack-ng -w 321.txt airportSniffxxxxxx.cap
 ## 感受
 
 使用了后发现 密码字典 是非常关键的，M1 Pro 的性能算可以的了，一个 1.2G 的字典需要 3个小时破解有点效率低，而且还没有成功。
+
+
+
+## Hashcat
+
+始终没找到有效密码字典，发现一种速度更快的破解方式。
+
+
+
+hashcat 是一种基于 GPU/CPU 的密码破解工具，能够破解各种类型的密码，包括 WPA2-PSK、NTLM、MD5 和 SHA 等哈希算法。它支持多种攻击模式，如字典攻击、暴力攻击、组合攻击、掩码攻击等，并可通过多个处理器和显卡同时工作，效率比传统的密码破解方法高出很多倍。
+
+通过在用户密码备份中搜索存储在数据库中的密码直到找到一个可破解的密码，这是一个非常常见的攻击方式。由于许多用户会选择弱密码，如常见的密码和简单的字典单词，因此使用 Hashcat 类工具可以进行强密码策略和驻留异地的策略。
+
+需要注意的是，未经授权或非法的密码破解是非法的，并可能涉及到法律问题。因此，应该谨慎使用Hashcat类工具，并只在经过授权或符合法律规定的情况下使用。
+
+
+
+### 安装
+
+安装 OpenCL 支持库和 GPU 驱动程序
+
+为了让 hashcat 利用 GPU 硬件加速，需要安装 OpenCL 支持库和相应的 GPU 驱动程序。在终端应用中运行以下命令安装 OpenCL 和相应的 GPU 驱动程序：
+
+```zsh
+brew install --cask cuda
+```
+
+如果您使用的是 AMD GPU，则需要运行以下命令：
+
+```zsh
+brew install --cask rocm
+```
+
+等待安装完成后，重启系统以确保驱动程序正确加载。
+
+
+
+安装 hashcat
+
+在终端应用中运行以下命令安装 hashcat：
+
+```zsh
+brew install hashcat
+```
+
+
+
+显示帮助信息：运行` hashcat --help` 或 `hashcat -h` 可以查看帮助信息。
+
+破解密码：使用 `hashcat -m` 和 $HASH 参数指定使用的哈希算法和哈希值，然后使用 -a 参数来指定攻击模式，然后使用 -w 和 -O 参数优化破解性能。例如：
+
+```zsh
+hashcat -m 0 $HASH rockyou.txt
+```
+
+其中，-m 0 表示使用 MD5 算法进行破解，rockyou.txt 是字典文件的名称。
+
+
+
+我的破解代码
+
+```zsh
+hashcat -a 3 -m 22000 -D 2 602.hccapx '?d?d?d?d?d?d?d?d' --force
+
+hashcat -a 3 -m 22000 -D 2 5022.hccapx '?h?h?h?h?h?h?h?h'
+
+hashcat -a 6 -m 22000 -D 2 5025.hccapx wifi_top2000_passwd.txt '?d?d?d?d?d?d?d?d'
+```
+
+### 卸载
+
+删除 hashcat 可执行文件
+
+在终端应用中运行以下命令：
+
+```zsh
+sudo rm /usr/local/bin/hashcat
+```
+
+删除 hashcat 的配置文件和日志文件
+
+在终端应用中运行以下命令：
+
+```zsh
+sudo rm -r ~/Library/Application\ Support/hashcat/
+```
+
+删除 hashcat 相关依赖包
+
+在终端应用中运行以下命令：
+
+```zsh
+brew uninstall hashcat
+```
+
+确认卸载
+
+可以通过运行以下命令确认 hashcat 是否已被卸载：
+
+```zsh
+hashcat --version
+```
+
+
+
+## Hcxpcapngtool
+
+hcxpcapngtool 是 hcxtools 工具包中的一个子工具，它用于将捕获到的 WiFi 握手数据转换成标准的 PCAPng 文件格式，以便于使用其他工具进行分析和处理。该工具可以在终端中使用。
+
+
+
+使用 hcxpcapngtool 工具的基本语法如下：
+
+```zsh
+hcxpcapngtool -i <输入文件> -o <输出文件>
+```
+
+其中，-i 参数指定输入文件路径，-o 参数指定输出文件路径。例如：
+
+```zsh
+hcxpcapngtool -i handshake.pcapng -o handshake_converted.pcapng
+```
+
+该命令会将名为 handshake.pcapng 的文件转换为标准的 PCAPng 格式，并保存到 handshake_converted.pcapng 文件中。
+
+除了基本语法之外，hcxpcapngtool 还提供了许多其他的命令选项和参数，可以通过执行 hcxpcapngtool -h 命令来查看帮助信息。
+
+
+
+我的转换
+
+```zsh
+hcxpcapngtool -o 5022.hccapx 5025G.cap
+```
 
 
 
