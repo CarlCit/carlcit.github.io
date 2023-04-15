@@ -445,6 +445,8 @@ hashcat -m 0 $HASH rockyou.txt
 我的破解代码
 
 ```zsh
+hashcat -a 0 -m 22000 -D 2 5025.hccapx passwords.txt
+
 hashcat -a 3 -m 22000 -D 2 602.hccapx '?d?d?d?d?d?d?d?d' --force
 
 hashcat -a 3 -m 22000 -D 2 5022.hccapx '?h?h?h?h?h?h?h?h'
