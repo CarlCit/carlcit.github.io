@@ -50,9 +50,12 @@ Hi，我是 Carl
 ***
 
 
-<div>
-  <iframe src="https://songlin.me/uptime/" width="100%" height="300"></iframe>
-</div>
+<iframe src="https://songlin.me/uptime/" width="100%" height="300"></iframe>
+
+
+***
+
+<iframe src="https://stats.uptimerobot.com/yxllYc7Z32" style="width: 100%; border: 0"></iframe>
 
 ***
 
