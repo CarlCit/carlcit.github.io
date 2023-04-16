@@ -454,3 +454,7 @@ MS SQL*SERVER数据库server，默认的端口号为1433/tcp 1433/udp；
 MS SQL*SERVER数据库monitor，默认的端口号为1434/tcp 1434/udp；
 
 QQ，默认的端口号为1080/udp
+
+
+
+![截屏2023-04-16 22.32.11](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2023-04-16%2022.32.11.png)
