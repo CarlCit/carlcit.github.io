@@ -194,3 +194,7 @@ unifi	/var/run/unifi
 Unifi_Controller
 
 /config
+
+
+
+![截屏2023-04-16 22.32.11](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2023-04-16%2022.32.11.png)
