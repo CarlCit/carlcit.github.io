@@ -23,9 +23,6 @@
     </div>
 </footer>
 
-<!-- 不蒜子计数 -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
 <!-- 建站时长 -->
 <script language=javascript>
     function siteTime(){
@@ -42,7 +39,7 @@
         var todayHour = today.getHours();
         var todayMinute = today.getMinutes();
         var todaySecond = today.getSeconds();
-        var t1 = Date.UTC(2021,01,07,08,00,00);  //此处填写建站时间 依次为 年,月,日,时,分,秒注意格式 半角,
+        var t1 = Date.UTC(2021,1,7,8,00,00);  //此处填写建站时间 依次为 年,月,日,时,分,秒注意格式 半角,
         var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
         var diff = t2-t1;
         var diffYears = Math.floor(diff/years);
@@ -51,7 +48,6 @@
         var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
         var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
         document.getElementById("sitetime").innerHTML="运行"+diffYears+" 年 "+diffDays+" 天 "；
-        <!-- +diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒"; //此处为显示的内容 -->
     }
     siteTime();
 </script>
