@@ -71,8 +71,8 @@ kramdown:
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'G-TYE2L3CZHS'            # Format: UA-xxxxxx-xx
-ga_domain: songlin.me
+# ga_track_id: 'G-TYE2L3CZHS'            # Format: UA-xxxxxx-xx
+# ga_domain: songlin.me
 
 
 
