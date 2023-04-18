@@ -48,10 +48,10 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-                {% if site.umami_comment %}
-                <!-- umami 评论框 start -->
+                {% if site.waline_comment %}
+                <!-- waline 评论框 start -->
                 <div id="waline"></div>
-                <!-- umami 评论框 end -->
+                <!-- waline 评论框 end -->
                 {% endif %}
                 
             </div>  
@@ -97,7 +97,7 @@ layout: default
 
 <!-- Waline 评论系统 -->
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
-<!-- umami 公共JS代码 start -->
+<!-- waline 公共JS代码 start -->
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
@@ -106,7 +106,7 @@ layout: default
       serverURL: 'https://comment.songlin.me',
     });
   </script>
-<!-- umami 公共JS代码 end -->
+<!-- waline 公共JS代码 end -->
 
 
 {% if site.disqus_username %}

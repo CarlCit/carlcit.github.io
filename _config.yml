@@ -57,8 +57,8 @@ kramdown:
       start_line: 1
 
 
-# umami settings
-  umami_comment: true
+# waline settings
+  waline_comment: true
 
 # Disqus settings
 # disqus_username: carlcit
