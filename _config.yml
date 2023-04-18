@@ -58,7 +58,7 @@ kramdown:
 
 
 # waline settings
-  waline_comment: true
+ # waline_comment: true
 
 # Disqus settings
 # disqus_username: carlcit

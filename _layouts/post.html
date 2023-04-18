@@ -48,12 +48,12 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-                {% if site.waline_comment %}
+
                 <!-- waline 评论框 start -->
-                <div class="comment">
-                    <div id="waline"></div>
+                <div id="waline"></div>
+
                 <!-- waline 评论框 end -->
-                {% endif %}
+ 
                 
             </div>  
 
@@ -96,18 +96,18 @@ layout: default
 {% endif %}
 
 
-<!-- Waline 评论系统 -->
+<!-- 引入waline样式 -->
 <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
-<!-- waline 公共JS代码 start -->
-  <script type="module">
+<!-- 引入waline模块并初始化 -->
+<script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
 
     init({
       el: '#waline',
       serverURL: 'https://comment.songlin.me',
     });
-  </script>
-<!-- waline 公共JS代码 end -->
+</script>
+
 
 
 {% if site.disqus_username %}
