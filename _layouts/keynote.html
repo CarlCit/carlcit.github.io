@@ -43,14 +43,12 @@ layout: default
                 </ul>
                 <hr style="visibility: hidden;">
 
-                {% if site.disqus_username %}
-                <!-- disqus 评论框 start -->
+                {% if site.umami_comment %}
+                <!-- umami 评论框 start -->
                 <div class="comment">
-                    <div id="disqus_thread" class="disqus-thread">
-
-                    </div>
+                    <div id="disqus_thread" class="disqus-thread"></div>
                 </div>
-                <!-- disqus 评论框 end -->
+                <!-- umami 评论框 end -->
                 {% endif %}
 
             </div>
@@ -93,6 +91,19 @@ layout: default
     })
     resize();
 </script>
+
+
+<!-- umami 公共JS代码 start -->
+<div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+
+    init({
+      el: '#waline',
+      serverURL: 'https://comment.songlin.me',
+    });
+  </script>
+<!-- umami 公共JS代码 end -->
 
 
 {% if site.disqus_username %}
