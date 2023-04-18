@@ -57,8 +57,6 @@ kramdown:
       start_line: 1
 
 
-# waline settings
- # waline_comment: true
 
 # Disqus settings
 # disqus_username: carlcit
