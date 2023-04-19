@@ -2,7 +2,8 @@
 layout: post
 title: "使用Python程序生成密码"
 subtitle: "macOS+Python"
-date: 2023-04-14
+date: 2023-04-15
+header-style: text
 author: "Carl"
 tags: [macOS,软件,Python]
 ---
