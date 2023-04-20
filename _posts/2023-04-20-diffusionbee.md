@@ -2,8 +2,8 @@
 layout: post
 title: "macOS安装Diffusion Bee生成照片"
 subtitle: "macOS+DiffusionBee"
-date: 2023-04-18
-header-style: text
+date: 2023-04-20
+header-img: "img/post-bg.jpg"
 author: "Carl"
 tags: [博客]
 ---
