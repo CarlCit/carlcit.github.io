@@ -91,7 +91,7 @@ featured-condition-size: 3              # 使用该标签的文章数大于上�
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#fff"
+chrome-tab-theme-color: "#ffffff"
 service-worker: true
 
 
