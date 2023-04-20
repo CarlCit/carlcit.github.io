@@ -53,6 +53,3 @@ Hi，我是 Carl
 
 <iframe src="https://songlin.me/uptime/" style="width: 100%;  height: 700px; border: 0"></iframe>
 
-***
-
-<iframe src="https://ip.skk.moe/simple" style="width: 100%;  height: 200px; border: 0"></iframe>
