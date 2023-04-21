@@ -9,6 +9,21 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
+                    <script type="module">
+                        import { pageviewCount } from 'https://unpkg.com/@waline/client@v2/dist/pageview.mjs';
+                      
+                        pageviewCount({
+                          // options
+                        });
+                    </script>
+                    <script type="module">
+                        import { commentCount } from 'https://unpkg.com/@waline/client@v2/dist/comment.mjs';
+                      
+                        commentCount({
+                          // options
+                        });
+                    </script>
+                    <br> 
                     <a href="https://analytics.umami.is/share/0JrNFUpxDCnLwDEd/Carl%E3%81%AEBlog" target="_blank">UMAMI</a> ｜
                     <a href="https://songlin.me" target="_blank">武汉同学</a> ｜
                     <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
