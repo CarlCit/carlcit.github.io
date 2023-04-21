@@ -10,12 +10,12 @@
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
                     浏览量:
-                    <span class="waline-pageview-count" data-path="/" />
+                    <span class="waline-pageview-count" data-path="/" >
                     <script type="module">
                         import { commentCount } from 'https://unpkg.com/@waline/client@v2/dist/comment.mjs';
                         commentCount({
-                          serverURL,
-                          path,
+                          serverURL: 'https://comment.songlin.me',
+                          path, window.location.pathname,
                         });
                     </script>
                     <br> 
@@ -31,22 +31,6 @@
     </div>
 </footer>
 
-
-<!-- 评论数 -->
-<script type="module">
-    import { pageviewCount } from 'https://unpkg.com/@waline/client/dist/pageview.mjs';
-  
-    pageviewCount({
-      serverURL: 'https://comment.songlin.me',
-      path: window.location.pathname,
-  
-      // 可选的，用于自定选择器，默认为 `'.waline-pageview-count'`
-      // selector: 'waline-pageview-count',
-  
-      // 可选的，是否在获取时增加访问量，默认为 `true`
-      // update: true,
-    });
-</script>
 
 
 
