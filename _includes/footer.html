@@ -9,29 +9,6 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    <li>
-                        浏览量:
-                        <span class="waline-pageview-count" data-path="/" />
-                    </li>
-                    <script type="module">
-                        import { pageviewCount } from 'https://unpkg.com/@waline/client/dist/pageview.mjs';
-                        pageviewCount({
-                          serverURL: 'https://comment.songlin.me',
-                          path: window.location.pathname,
-                        });
-                    </script>
-                    <li>
-                        评论数:
-                        <span class="waline-comment-count" data-path="/" />
-                    </li>
-                    <script type="module">
-                        import { pageviewCount } from 'https://unpkg.com/@waline/client@v2/dist/comment.mjs';
-                        pageviewCount({
-                          serverURL: 'https://comment.songlin.me',
-                          path: window.location.pathname,
-                        });
-                    </script>
-                    <br> 
                     <a href="https://analytics.umami.is/share/0JrNFUpxDCnLwDEd/Carl%E3%81%AEBlog" target="_blank">UMAMI</a> ｜
                     <a href="https://songlin.me" target="_blank">武汉同学</a> ｜
                     <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="100px"
