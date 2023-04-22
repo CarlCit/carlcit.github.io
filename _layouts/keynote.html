@@ -106,10 +106,19 @@ layout: default
 <!-- 引入waline模块并初始化 -->
 <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
-
     init({
       el: '#waline',
+      dark: 'auto',
+      reaction: true,
+      search: false,
       serverURL: 'https://comment.songlin.me',
+      // 设置 emoji 为微博与哔哩哔哩
+      emoji: [
+      '//unpkg.com/@waline/emojis@1.1.0/weibo',
+      '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+      '//unpkg.com/@waline/emojis@1.1.0/tw-emoji',
+      '//unpkg.com/@waline/emojis@1.1.0/qq',
+      ]
     });
 </script>
 
