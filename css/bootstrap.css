@@ -1519,6 +1519,8 @@ code {
   color: #ce5654;
   background-color: #ababab;
   border-radius: 4px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 kbd {
   padding: 2px 4px;
