@@ -196,7 +196,7 @@ brew uninstall aircrack-ng
 
 
 
-macOS 系统自带 airport 工具软件，默认路径为：/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport
+macOS 系统自带 airport 工具软件，默认路径为：`/System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport  `
 
 
 

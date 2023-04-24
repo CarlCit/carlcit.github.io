@@ -347,7 +347,7 @@ UNIFI_UID
 
 # Bark 通知
 
-
+```
 
 https://api.day.app/UYrsCNSYvWFNzbNJxzcFr9/⌘ 公网 IP 变更 ⌘/  当前 IP 地址：「#{ipv4Addr}」 🇨🇳 %250a  域名解析结果：「#{ipv4Result}」 🎉?icon=https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/PNG.PNG
 
@@ -381,7 +381,7 @@ https://nas.haijc.cn:12333/nLTyNQKve6pefYoC4Ke9PA/
 
 http://nas.haijc.cn:2333/ggNsMjZTM73DZMK8329Zh5/公网IP变更/新 IP「#{ipv4Addr}」📮 域名解析「#{ipv4Result}」?icon=https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/PNG.PNG
 
-
+```
 
 换行
 

@@ -44,7 +44,7 @@ tags: [OpenWrt]
 
 找到 Office 安装路径进入
 
-`cd "C:\Program Files (x86)\Microsoft Office\Office16"`
+`cd "C:\Program Files (x86)\Microsoft Office\Office16"  `
 
 设置激活服务器
 
@@ -58,7 +58,7 @@ tags: [OpenWrt]
 
 查看激活的具体信息
 
-`cscript"C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /dstatus`
+`cscript"C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /dstatus  `
 
 密钥
 
