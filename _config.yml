@@ -1,6 +1,6 @@
 # Site settings
-title: 📮 CarlのBlog               # 你的博客网站标题
-SEOTitle: 武汉同学 📮 CarlのBlog    # SEO，显示在浏览器上搜索的时候显示的标题
+title: CarlのBlog               # 你的博客网站标题
+SEOTitle: 武汉同学 CarlのBlog    # SEO，显示在浏览器上搜索的时候显示的标题
 header-img: img/home-bg.jpg        # 显示在首页的背景图片
 email: me@songlin.me
 description:  "武汉同学是一个喜欢折腾的数码爱好者，博客记录个人学习笔记，折腾经验分享等。"     # 网站介绍
