@@ -39,6 +39,18 @@ QNAP 532X NAS：![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerob
 
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fsonglin.me%2Fimg%2Ffavicon.ico)
 
+<div style="text-align: left;">
+  <iframe 
+    style="margin-left: 20px; margin-bottom:-5px;" 
+    frameborder="0" 
+    scrolling="0" 
+    width="130px"
+    height="20px"
+    src="https://img.shields.io/youtube/channel/views/UCLY6gSsEwswCrDaFV__K1uw?style=social">
+  </iframe>
+</div>
+
+
 <iframe style="margin-left: 20px; margin-bottom:-5px;" 
         frameborder="0" scrolling="0" width="130px"
         height="20px"
