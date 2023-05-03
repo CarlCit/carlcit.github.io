@@ -17,7 +17,7 @@ Hi，我是 武汉同学（Carl）
 </div><br>
 <div style="text-align: left; display: inline-block;">
     R2S OpenWrt：<img src="https://img.shields.io/uptimerobot/ratio/m792805900-c8a50b879cc3c9a6f9572167" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792805900-c8a50b879cc3c9a6f9572167" style="display: inline-block;">
-</div><br>
+</div>
 <div style="text-align: left; display: inline-block;">
     QNAP 532X NAS：<img src="https://img.shields.io/uptimerobot/ratio/m792798184-61716c065417c923ec86b020" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792798184-61716c065417c923ec86b020" style="display: inline-block;">
 </div>
