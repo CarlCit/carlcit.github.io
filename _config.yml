@@ -103,37 +103,13 @@ page-mathjax: false   # false
 # Friends
 friends: [
     {
-        title: "maxOS",
-        href: "https://maxoxo.me"
+        title: "Google",
+        href: "https://google.com"
     },{
-        title: "Kimen's",
-        href: "https://blog.kimen.com.cn"
+        title: "AIHI",
+        href: "https://aihi.one"
     },{
-        title: "书山有路",
-        href: "https://sumju.net"
-    },{
-        title: "雨戈林多",
-        href: "https://moonagic.com"
-    },{
-        title: "Sleele",
-        href: "https://sleele.com"
-    },{
-        title: "Sukka",
-        href: "https://blog.skk.moe"
-    },{
-        title: "MARKSZ",
-        href: "https://molunerfinn.com"
-    },{
-        title: "Bryce Yang",
-        href: "https://todebug.com"
-    },{
-        title: "思有云",
-        href: "https://www.ioiox.com"
-    },{
-        title: "DIYgod",
-        href: "https://diygod.me"
-    },{
-        title: "OldPanda",
-        href: "https://old-panda.com"
+        title: "ChatGPT",
+        href: "https://ai.aihi.one"
     }
 ]
