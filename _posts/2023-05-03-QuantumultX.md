@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Quantumult X配置文件Mac版"
+title: "Quantumult X配置文件"
 subtitle: "Quantumult X"
-date: 2023-05-03
+date: 2023-05-03 12:00
 header-img: "img/post-bg.jpg"
 header-style: text
 author: "Carl"
