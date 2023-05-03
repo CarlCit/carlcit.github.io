@@ -8,20 +8,19 @@ Hi，我是 武汉同学（Carl）
 
 ### 服务状态
 
-<p style="line-height: 1;">
-    <div style="text-align: left; display: inline-block;">
+
+<div style="text-align: left; display: inline-block; line-height: 1;">
     Website：<img src="https://img.shields.io/website?url=https%3A%2F%2Fsonglin.me%2Fimg%2Ffavicon.ico" style="display: inline-block;">
-    </div><br>
-    <div style="text-align: left; display: inline-block;">
+</div><br>
+<div style="text-align: left; display: inline-block;">
     UniFi Controller：<img src="https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0" style="display: inline-block;">
-    </div><br>
-    <div style="text-align: left; display: inline-block;">
+</div><br>
+<div style="text-align: left; display: inline-block;">
     R2S OpenWrt：<img src="https://img.shields.io/uptimerobot/ratio/m792805900-c8a50b879cc3c9a6f9572167" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792805900-c8a50b879cc3c9a6f9572167" style="display: inline-block;">
-    </div><br>
-    <div style="text-align: left; display: inline-block;">
+</div><br>
+<div style="text-align: left; display: inline-block;">
     QNAP 532X NAS：<img src="https://img.shields.io/uptimerobot/ratio/m792798184-61716c065417c923ec86b020" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792798184-61716c065417c923ec86b020" style="display: inline-block;">
-    </div>
-</p>
+</div>
 
 
 
