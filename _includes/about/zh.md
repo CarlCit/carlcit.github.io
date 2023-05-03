@@ -24,7 +24,7 @@ UniFi Controller: ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimer
 </div>
 
 <div style="text-align: left;">
-  UniFi Controller: <img src="https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0">
+  UniFi Controller: <img src="https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0"> & <img src="https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0">
 </div>
 
 
