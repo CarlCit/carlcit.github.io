@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用Cloudflare Workers链接OpenAI API"
+title: "使用Cloudflare链接OpenAI API"
 subtitle: "Cloudflare+OpenAI API+自定义域名"
 date: 2023-05-03 13:00
 author: "Carl"
@@ -9,6 +9,7 @@ header-style: text
 tags:
   - AI
   - Tips
+  - 转载
 ---
 
 
