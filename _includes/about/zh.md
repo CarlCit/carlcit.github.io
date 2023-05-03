@@ -4,7 +4,7 @@ Hi，我是 武汉同学（Carl）
 
 一个喜欢折腾的人，一个数码爱好者！在这里记录一些个人折腾笔记，学习分享等相关内容。
 
-
+***
 
 分析文字
 
@@ -13,9 +13,11 @@ Markdown的风格简洁明了，没有复杂的样式和格式，这使得阅读
 
 总之，Markdown是一种易于使用的标记语言，它可以帮助我们快速记录想法和写作内容，并且以非常优美的方式呈现文章。如果你还没有尝试过Markdown，不妨在下一次写作或记录想法时使用它，相信你会受益匪浅。
 
+### 服务状态
+UniFi Controller：![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0) | ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0)  
+OpenWrt：![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m792805900-c8a50b879cc3c9a6f9572167) | ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m792805900-c8a50b879cc3c9a6f9572167)
 
-![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0)  
-![Uptime Robot status](https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0?style=for-the-badge)
+
 
 [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg)
 
