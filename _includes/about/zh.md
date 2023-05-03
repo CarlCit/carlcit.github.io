@@ -6,32 +6,24 @@ Hi，我是 武汉同学（Carl）
 
 ***
 
-分析文字
-
-Markdown是一种轻量级标记语言，它以简洁、易读易写的语法而著称。它的出现旨在让人们能够轻松地将想法快速记录下来，并且方便地将其转化为HTML格式的文档。Markdown的语法非常简单易懂，只需要使用一些特殊字符和标记即可实现常用的文本样式和排版效果。这使得Markdown成为了很多博客和文档编辑的首选语言。在使用Markdown写作时，我们可以使用特殊符号来表示标题、段落、列表、链接等内容，同时也支持插入图片、代码块等高级功能。Markdown的语法规则简单明了，几分钟的学习即可掌握。与其他复杂的排版语言相比，Markdown更加灵活自由，我们可以快速地根据需求调整文本样式，以达到更好的阅读体验。  
-Markdown的风格简洁明了，没有复杂的样式和格式，这使得阅读过程更加流畅。与此同时，Markdown也易于维护和编辑，因为它的源代码易于理解和修改。因此，如果你是一名博主或文档编辑，Markdown是一个非常适合你的工具，它不仅提高了写作效率，也有助于更好地传达你的思想。
-
-总之，Markdown是一种易于使用的标记语言，它可以帮助我们快速记录想法和写作内容，并且以非常优美的方式呈现文章。如果你还没有尝试过Markdown，不妨在下一次写作或记录想法时使用它，相信你会受益匪浅。
-
 ### 服务状态
 
+<p style="line-height: 1;">
+    <div style="text-align: left; display: inline-block;">
+    Website：<img src="https://img.shields.io/website?url=https%3A%2F%2Fsonglin.me%2Fimg%2Ffavicon.ico" style="display: inline-block;">
+    </div><br>
+    <div style="text-align: left; display: inline-block;">
+    UniFi Controller：<img src="https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0" style="display: inline-block;">
+    </div><br>
+    <div style="text-align: left; display: inline-block;">
+    R2S OpenWrt：<img src="https://img.shields.io/uptimerobot/ratio/m792805900-c8a50b879cc3c9a6f9572167" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792805900-c8a50b879cc3c9a6f9572167" style="display: inline-block;">
+    </div><br>
+    <div style="text-align: left; display: inline-block;">
+    QNAP 532X NAS：<img src="https://img.shields.io/uptimerobot/ratio/m792798184-61716c065417c923ec86b020" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792798184-61716c065417c923ec86b020" style="display: inline-block;">
+    </div>
+</p>
 
 
-UniFi Controller: ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0)
-
-<div style="text-align: left;">
-  UniFi Controller: ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0)
-</div>
-
-<div style="text-align: left; display: inline-block;">
-  UniFi Controller: <img src="https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0" style="display: inline-block;"> & <img src="https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0" style="display: inline-block;">
-</div>
-
-
-![Uptime Robot status](https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0)
-
-R2S OpenWrt：![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m792805900-c8a50b879cc3c9a6f9572167) | ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m792805900-c8a50b879cc3c9a6f9572167)  
-QNAP 532X NAS：![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m792798184-61716c065417c923ec86b020) | ![Uptime Robot status](https://img.shields.io/uptimerobot/status/m792798184-61716c065417c923ec86b020)
 
 
 
