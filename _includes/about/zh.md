@@ -5,24 +5,62 @@ Hi，我是 武汉同学（Carl）
 一个喜欢折腾的人，一个数码爱好者！在这里记录一些个人折腾笔记，学习分享等相关内容。
 
 ***
-
-#### 服务状态
-
-更详细数据 [**UptimeRobot**](https://stats.uptimerobot.com/yxllYc7Z32)
-
-<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/CarlCit/carlcit.github.io">
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/CarlCit/carlcit.github.io)
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/w/CarlCit/carlcit.github.io?style=for-the-badge)
-
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io?style=for-the-badge">
-
-
-#### 社交媒体
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 1px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="150px"
+    height="28px"
+    src="https://img.shields.io/badge/%E6%9C%AC%E7%AB%99-%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge">
+  </iframe>
+</div>
+
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 10px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="130px"
+    height="20px"
+    src="https://img.shields.io/website?up_message=%E5%9C%A8%E7%BA%BF&url=https%3A%2F%2Fsonglin.me%2F">
+  </iframe>
+</div>
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 10px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="130px"
+    height="20px"
+    src="https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io">
+  </iframe>
+</div>
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 10px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="130px"
+    height="20px"
+    src="https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io">
+  </iframe>
+</div>
+
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 1px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="150px"
+    height="28px"
+    src="https://img.shields.io/badge/%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93-%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge">
+  </iframe>
+</div>
+
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -30,17 +68,17 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/twitter/url?url=https://twitter.com/carlsonglin">
   </iframe>
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
     height="20px"
-    src="https://img.shields.io/twitter/follow/carlsonglin?label=followers">
+    src="https://img.shields.io/twitter/follow/carlsonglin?style=social">
   </iframe>
 </div>
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -48,7 +86,7 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/youtube/channel/views/UCLY6gSsEwswCrDaFV__K1uw?style=social">
   </iframe>
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -58,7 +96,7 @@ Hi，我是 武汉同学（Carl）
 </div>
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -68,7 +106,7 @@ Hi，我是 武汉同学（Carl）
 </div>
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -78,7 +116,7 @@ Hi，我是 武汉同学（Carl）
 </div>
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -86,7 +124,7 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/github/stars/CarlCit?style=social">
   </iframe>
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -96,7 +134,7 @@ Hi，我是 武汉同学（Carl）
 </div>
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -106,7 +144,7 @@ Hi，我是 武汉同学（Carl）
 </div>
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -116,7 +154,7 @@ Hi，我是 武汉同学（Carl）
 </div>
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 5px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -125,6 +163,35 @@ Hi，我是 武汉同学（Carl）
   </iframe>
 </div>
 
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 1px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="150px"
+    height="28px"
+    src="https://img.shields.io/badge/%E6%9C%8D%E5%8A%A1%E5%99%A8-%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge">
+  </iframe>
+</div>
+
+<div style="text-align: left;">ChatGPTNextWeb
+  <iframe
+    style="margin-left: 10px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="120px"
+    height="20px"
+    src="https://img.shields.io/uptimerobot/ratio/m792805788-879946a373ed30892b862c06">
+  </iframe>
+  <iframe
+    style="margin-left: 10px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="80px"
+    height="20px"
+    src="https://img.shields.io/uptimerobot/status/m792805788-879946a373ed30892b862c06">
+  </iframe>
+</div>
 
 ***
 
