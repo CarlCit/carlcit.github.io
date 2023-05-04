@@ -45,9 +45,7 @@ Hi，我是 武汉同学（Carl）
     height="20px"
     src="https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io">
   </iframe>
-</div>
-
-<br style="line-height: 0.2em;">
+</div>  
 
 <div style="text-align: left;">
   <iframe
