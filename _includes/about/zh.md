@@ -94,7 +94,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="130px"
     height="20px"
-    src="https://img.shields.io/badge/dynamic/json?color=43A0D1&label=subscribers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dbilibili%26queryKey%3D191193781&style=social&logo=bilibili">
+    src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Fbilibili%2F191193781&query=count&color=282c34&label=%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9&labelColor=FE7398&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAD7ElEQVR4nO2dW9WrMBCFK6ESkFAJSKiESqgEHCABCZWAhEpAAhL2ecik5dDc%2FpXLBDLfWnlqy0xmJ5BMQnq5CIIgCIIgCIIgCIIgCEIBAHQAemYfrgCunD6wAKAHsEKxALgx+bCQD8%2FS9tmgVqeDr1lLigDgZvDhXso+K9TyTBQRwRJ8AHjntl0Flh5QRAQK%2FmKxPeayWx2OXpBNBKiHvi34b7T2MC4pAvW6twR%2FRwkRKPizBN8CgEcuESj4Lwm+BwBjahEk+H8EwJRKhOaCDzW8e1JLfkUUH1NgmR3XmHffHR1l+72BSs8d7w8U+JDAnZERQMcV+CtUi7dNqFqibB4J7vtrq7xKCuAasbTMXCL4T+5aVk6+2xHUrWdhruAR6HIJcOeu2UHI8zyAe2ytWfEdWz9PVvQ8YAmIQ5dDAB9LFsMVAv8oMO2zAGrC5WNIarRiAuKR9jYEd9pY08aa6uUzIHGRdkgKd8pY0yc1WjEBAqypDYoAG0QAZkQAZkQAZkQAZk4vANQenjsSzS3I%2FwcSbXU5jQBUkRtdf4Rar90v8kSv3+I3ffCCSpk8I%2Fw+lgDkdI%2Fv2rEp2CaiWm1AsDQLlDAD+dlFXLMeAaCSeLZdaSFE5VUQNot38cKuEeBgAsSuG0flVZBmEanbXfNQAsS0fgBYIn2fIu3%2FBBMHEyBmDXlFfA8IzeHb+Ems4WAChKykrVA9ZfsQTL57jXzRg4A5wC%2FA8N4ADiZAZwm2XjW75Qh2KOTfA0p4kygPw28OJcCVgn3nDnYo2EwEYRgGH0qAMyICMCMCMCMCMCMCMCMCMCMCfP3qwHDOQ4AAUekTk8FaBRihJnZdYbvtCGC7LvmkM63GjVDINPFrQgCq5ETXfmMzI90FXzPvfqt7x4rEu%2FZaEcCUxFvgz2zO+BUn6UkoaEEAsptiMSX5e8FoRYCN7cVgb4Vq7U%2FH50Pq4JNP7Qiw8UFnJwcK+tXy+Wj6PLEvPgHSHv5UgwA1IQIwwyFAyLJin9RoxYgAzAQIkPwNmf26busC+OIx5TDqo5nDT+F%2FSS%2F9CYzwb+No49zNy2evkYv0LywGGAXUvp6eSneycqOic0w20k7CNgKE7jJunSGLACTCxF27ylmQc98T5MQUH49swd+I0HPXslLKnT0N+wnkrTKi9JZL%2FL9i1SorMmdeQ4TQQ7OFMxIMzGD45w8nUL1im7efENZLJpgPSw0pfz0cdt4U3230Td%2FTvx2R6d2FrHhEWLkq5PELOMsRPHCPnAZGv1xJteL7jbJiaW3sB2nDvPC%2FosSYvjRQz4cJ6n7KO3rYQL7M+L6nVtfDVRAEQRAEQRAEQRAEIZ5%2FSAXmdfXaoQsAAAAASUVORK5CYII%3D&suffix=+%E5%85%B3%E6%B3%A8&cacheSeconds=3600">
   </iframe>
 </div>
 <div style="text-align: left;">
@@ -132,7 +132,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="130px"
     height="20px"
-    src="https://img.shields.io/badge/dynamic/json?label=followers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dinstagram%26queryKey%3Dcarl.songlin&style=social&logo=instagram">
+    src="https://img.shields.io/badge/dynamic/json?label=instagram%20%E5%85%B3%E6%B3%A8&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dinstagram%26queryKey%3Dcarl.songlin&style=social&logo=instagram">
   </iframe>
 </div>
 <div style="text-align: left;">
@@ -142,7 +142,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="130px"
     height="20px"
-    src="https://img.shields.io/badge/dynamic/json?label=subscribers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dsspai%26queryKey%3Dhaijc&style=social&logo=Apache">
+    src="https://img.shields.io/badge/dynamic/json?label=%E5%B0%91%E6%95%B0%E6%B4%BE%E5%85%B3%E6%B3%A8&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dsspai%26queryKey%3Dhaijc&style=social&logo=applearcade">
   </iframe>
 </div>
 <div style="text-align: left;">
@@ -152,7 +152,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="130px"
     height="20px"
-    src="https://img.shields.io/badge/dynamic/json?label=Subscribers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dcarlsonglin&style=social&logo=zhihu">
+    src="https://img.shields.io/badge/dynamic/json?label=%E7%9F%A5%E4%B9%8E%E5%85%B3%E6%B3%A8&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dcarlsonglin&style=social&logo=zhihu">
   </iframe>
 </div>
 
@@ -182,6 +182,25 @@ Hi，我是 武汉同学（Carl）
   </iframe>
 </div>
 
+<p></p>
+
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 1px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="200px"
+    height="28px"
+    src="https://img.shields.io/badge/-%E6%88%91%E7%9A%84%E9%9A%8F%E6%8B%8D%E5%88%86%E4%BA%AB%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-666?style=for-the-badge&logo=instagram&labelColor=bbb&link=https://www.instagram.com/songlin.me/">
+  </iframe>
+</div>
+
+
+
+
+https://img.shields.io/badge/dynamic/json?label=%E7%9F%A5%E4%B9%8E%E5%85%B3%E6%B3%A8&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dsspai%26queryKey%3Dcarlsonglin&style=social&logo=zhihu
+
+https://img.shields.io/badge/dynamic/json?label=subscribers&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dcarlsonglin&style=social&logo=zhihu
 
 ***
 
