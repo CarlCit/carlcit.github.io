@@ -31,7 +31,7 @@ Hi，我是 武汉同学（Carl）
     style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
-    width="130px"
+    width="180px"
     height="20px"
     src="https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io">
   </iframe>
@@ -46,9 +46,7 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io">
   </iframe>
 </div>
-
 <br>
-
 <div style="text-align: left;">
   <iframe
     style="margin-left: 1px; margin-bottom:-5px;" 
