@@ -225,6 +225,10 @@ Hi，我是 武汉同学（Carl）
 </div>
 更详细数据 [**UptimeRobot**](https://stats.uptimerobot.com/yxllYc7Z32)
 
+<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/w/CarlCit/carlcit.github.io">
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/CarlCit/carlcit.github.io)
+
 
 
 #### 社交媒体
