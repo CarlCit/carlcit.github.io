@@ -223,6 +223,8 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/uptimerobot/status/m792805788-879946a373ed30892b862c06">
   </iframe>
 </div>
+更详细数据 [**UptimeRobot**](https://stats.uptimerobot.com/yxllYc7Z32)
+
 
 
 #### 社交媒体
@@ -289,7 +291,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="130px"
     height="20px"
-    src="https://img.shields.io/github/stars/CarlCit?style=socialn">
+    src="https://img.shields.io/github/stars/CarlCit?style=social">
   </iframe>
   <iframe
     style="margin-left: 5px; margin-bottom:-5px;" 
@@ -332,6 +334,11 @@ Hi，我是 武汉同学（Carl）
 </div>
 
 
+***
+
+
+
+豆瓣
 
 
 
