@@ -13,7 +13,7 @@ Hi，我是 武汉同学（Carl）
     style="margin-left: 5px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
-    width="130px"
+    width="100%"
     height="20px"
     src="https://img.shields.io/uptimerobot/ratio/m792805754-7e394083d5e0d9987eeb01f0">
   </iframe>
@@ -21,7 +21,7 @@ Hi，我是 武汉同学（Carl）
     style="margin-left: 5px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
-    width="90px"
+    width="100%"
     height="20px"
     src="https://img.shields.io/uptimerobot/status/m792805754-7e394083d5e0d9987eeb01f0">
   </iframe>
