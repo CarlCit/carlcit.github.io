@@ -12,7 +12,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="150px"
     height="28px"
-    src="https://img.shields.io/badge/-%E6%9C%AC%E7%AB%99%E7%8A%B6%E6%80%81-ce5654?style=for-the-badge&logo=github&labelColor=888">
+    src="https://img.shields.io/badge/-%E6%9C%AC%E7%AB%99%E7%8A%B6%E6%80%81-ce5654?style=for-the-badge&logo=github&labelColor=bbb">
   </iframe>
 </div>
 
@@ -56,7 +56,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="150px"
     height="28px"
-    src="https://img.shields.io/badge/-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E7%8A%B6%E6%80%81-ce5654?style=for-the-badge&logo=twitter&labelColor=888">
+    src="https://img.shields.io/badge/-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E7%8A%B6%E6%80%81-ce5654?style=for-the-badge&logo=twitter&labelColor=bbb">
   </iframe>
 </div>
 
@@ -166,7 +166,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="200px"
     height="28px"
-    src="https://img.shields.io/badge/-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8A%B6%E6%80%81%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-ce5654?style=for-the-badge&logo=openai&labelColor=888&link=https://stats.uptimerobot.com/yxllYc7Z32">
+    src="https://img.shields.io/badge/-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8A%B6%E6%80%81%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-ce5654?style=for-the-badge&logo=openai&labelColor=bbb&link=https://stats.uptimerobot.com/yxllYc7Z32">
   </iframe>
 </div>
 
@@ -179,7 +179,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="200px"
     height="28px"
-    src="https://img.shields.io/badge/-%E6%88%91%E7%9A%84%E8%A7%82%E5%BD%B1%E8%AE%B0%E5%BD%95%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-ce5654?style=for-the-badge&logo=douban&labelColor=888&link=https://movie.douban.com/people/haiwuhan/">
+    src="https://img.shields.io/badge/-%E6%88%91%E7%9A%84%E8%A7%82%E5%BD%B1%E8%AE%B0%E5%BD%95%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-ce5654?style=for-the-badge&logo=douban&labelColor=bbb&link=https://movie.douban.com/people/haiwuhan/">
   </iframe>
 </div>
 
