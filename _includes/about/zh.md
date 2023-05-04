@@ -12,7 +12,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="150px"
     height="28px"
-    src="https://img.shields.io/badge/@-%E6%9C%AC%E7%AB%99%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge">
+    src="https://img.shields.io/badge/-%E6%9C%AC%E7%AB%99%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge&logo=github&labelColor=000">
   </iframe>
 </div>
 
@@ -56,7 +56,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="150px"
     height="28px"
-    src="https://img.shields.io/badge/@-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge">
+    src="https://img.shields.io/badge/-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge&logo=twitter&labelColor=000">
   </iframe>
 </div>
 
@@ -166,7 +166,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="150px"
     height="28px"
-    src="https://img.shields.io/badge/@-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge">
+    src="https://img.shields.io/badge/-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8A%B6%E6%80%81-blueviolet?style=for-the-badge&logo=serverless&labelColor=000">
   </iframe>
   点击打开：<a href="https://stats.uptimerobot.com/yxllYc7Z32" target="_blank">UptimeRobot</a>
 </div>
