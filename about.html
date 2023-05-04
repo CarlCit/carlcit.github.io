@@ -30,6 +30,12 @@ multilingual: true
 </div>
 <!-- disqus 评论框 end -->
 
+
+<!-- waline 评论框 start -->
+<div id="waline"></div>
+<!-- waline 评论框 end -->
+
+
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
@@ -45,3 +51,23 @@ multilingual: true
 </script>
 <!-- disqus 公共JS代码 end -->
 {% endif %}
+
+
+<!-- 引入waline样式 -->
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
+<!-- 引入waline模块并初始化 -->
+<script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+    init({
+      el: '#waline',
+      dark: 'auto',
+      reaction: false,
+      search: false,
+      serverURL: 'https://comment.songlin.me',
+      // 设置 emoji 为微博与哔哩哔哩
+      emoji: [
+      '//unpkg.com/@waline/emojis@1.1.0/weibo',
+      '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+      ]
+    });
+</script>
