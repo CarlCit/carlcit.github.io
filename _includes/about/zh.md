@@ -1,10 +1,7 @@
 > 这世界我来过 ～～
-
 Hi，我是 武汉同学（Carl）
-
 一个喜欢折腾的人，一个数码爱好者！在这里记录一些个人折腾笔记，学习分享等相关内容。
 
-***
 <div style="text-align: left;">
   <iframe
     style="margin-left: 1px; margin-bottom:-5px;" 
