@@ -63,7 +63,7 @@ Hi，我是 武汉同学（Carl）
     style="margin-left: 10px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
-    width="130px"
+    width="140px"
     height="20px"
     src="https://img.shields.io/twitter/follow/carlsonglin?style=social">
   </iframe>
@@ -166,24 +166,8 @@ Hi，我是 武汉同学（Carl）
   </iframe>
 </div>
 
-<div style="text-align: left;">ChatGPTNextWeb
-  <iframe
-    style="margin-left: 10px; margin-bottom:-5px;" 
-    frameborder="0"
-    scrolling="0"
-    width="120px"
-    height="20px"
-    src="https://img.shields.io/uptimerobot/ratio/m792805788-879946a373ed30892b862c06">
-  </iframe>
-  <iframe
-    style="margin-left: 10px; margin-bottom:-5px;" 
-    frameborder="0"
-    scrolling="0"
-    width="80px"
-    height="20px"
-    src="https://img.shields.io/uptimerobot/status/m792805788-879946a373ed30892b862c06">
-  </iframe>
-</div>
+<a href="https://stats.uptimerobot.com/yxllYc7Z32" target="_blank">UptimeRobot</a>
+
 
 ***
 
