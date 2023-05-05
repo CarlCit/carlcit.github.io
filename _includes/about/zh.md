@@ -130,6 +130,17 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/badge/-%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8A%B6%E6%80%81%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-666?style=for-the-badge&logo=cloudflare&labelColor=E0E0E0&link=https://stats.uptimerobot.com/yxllYc7Z32">
   </iframe>
 </div>
+<p></p>
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 1px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="200px"
+    height="28px"
+    src="https://img.shields.io/badge/-UMAMI%20%E7%BB%9F%E8%AE%A1%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-666?style=for-the-badge&logo=googleanalytics&labelColor=E0E0E0&link=https://analytics.umami.is/share/KvudgH9AKi7v7jyB/Carl%E3%81%AEBlog">
+  </iframe>
+</div>
 
 <p></p>
 
@@ -140,7 +151,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="150px"
     height="28px"
-    src="https://img.shields.io/badge/-%E6%9C%AC%E7%AB%99%E7%8A%B6%E6%80%81-666?style=for-the-badge&logo=githubsponsors&labelColor=E0E0E0">
+    src="https://img.shields.io/badge/-Carl%E3%81%AEBlog%20%E7%8A%B6%E6%80%81-666?style=for-the-badge&logo=githubsponsors&labelColor=E0E0E0">
   </iframe>
 </div>
 <iframe
