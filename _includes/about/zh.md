@@ -15,11 +15,7 @@ Hi，我是 武汉同学（Carl）
   </iframe>
 </div>
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Fsonglin.me%2F)
-
-![GitHub last commit](https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io)
-
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io)
+![Website](https://img.shields.io/website?url=https%3A%2F%2Fsonglin.me%2F)![GitHub last commit](https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io)![GitHub commit activity](https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io)
 
 
 <div style="text-align: left;">
