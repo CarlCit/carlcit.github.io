@@ -24,7 +24,7 @@ Hi，我是 武汉同学（Carl）
 
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 10px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px; width: fit-content; height: fit-content;"
     frameborder="0"
     scrolling="0"
     width="95px"
@@ -32,7 +32,7 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/website?up_message=%E5%9C%A8%E7%BA%BF&url=https%3A%2F%2Fsonglin.me%2F">
   </iframe>
   <iframe
-    style="margin-left: 10px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px; width: fit-content; height: fit-content;"
     frameborder="0"
     scrolling="0"
     width="130px"
@@ -40,7 +40,7 @@ Hi，我是 武汉同学（Carl）
     src="https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io">
   </iframe>
   <iframe
-    style="margin-left: 10px; margin-bottom:-5px;" 
+    style="margin-left: 10px; margin-bottom:-5px; width: fit-content; height: fit-content;"
     frameborder="0"
     scrolling="0"
     width="180px"
