@@ -4,41 +4,7 @@ Hi，我是 武汉同学（Carl）
 
 一个喜欢折腾的人，一个数码爱好者！在这里记录一些个人折腾笔记，学习分享等相关内容。
 
-<div style="text-align: left;">
-  <iframe
-    style="margin-left: 1px; margin-bottom:-5px;" 
-    frameborder="0"
-    scrolling="0"
-    width="150px"
-    height="28px"
-    src="https://img.shields.io/badge/-%E6%9C%AC%E7%AB%99%E7%8A%B6%E6%80%81-666?style=for-the-badge&logo=githubsponsors&labelColor=E0E0E0">
-  </iframe>
-</div>
 
-<iframe
-    style="margin-left: 10px; margin-bottom:-5px;"
-    frameborder="0"
-    scrolling="0"
-    width="100px"
-    height="20px"
-    src="https://img.shields.io/website?up_message=%E5%9C%A8%E7%BA%BF&url=https%3A%2F%2Fsonglin.me%2F">
-</iframe>
-<iframe
-    style="margin-left: 10px; margin-bottom:-5px;"
-    frameborder="0"
-    scrolling="0"
-    width="150px"
-    height="20px"
-    src="https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io">
-</iframe>
-<iframe
-    style="margin-left: 10px; margin-bottom:-5px;"
-    frameborder="0"
-    scrolling="0"
-    width="180px"
-    height="20px"
-    src="https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io">
-</iframe>
 
 
 <p></p>
@@ -126,30 +92,34 @@ Hi，我是 武汉同学（Carl）
     height="20px"
     src="https://img.shields.io/badge/dynamic/json?label=Follow&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dinstagram%26queryKey%3Dsonglin.me&style=social&logo=instagram">
 </iframe>
-<iframe
-    style="margin-left: 10px; margin-bottom:-5px;" 
-    frameborder="0"
-    scrolling="0"
-    width="130px"
-    height="20px"
-    src="https://img.shields.io/youtube/channel/subscribers/UCLY6gSsEwswCrDaFV__K1uw?style=social">
-</iframe>
+
+
+
+
 
 <p></p>
-
 <div style="text-align: left;">
   <iframe
-    style="margin-left: 10px; margin-bottom:-5px;" 
+    style="margin-left: 1px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
-    width="130px"
-    height="20px"
-    src="https://img.shields.io/badge/dynamic/json?label=%E7%9F%A5%E4%B9%8E%E5%85%B3%E6%B3%A8&query=%24.data.totalSubs&url=https%3A%2F%2Fapi.spencerwoo.com%2Fsubstats%2F%3Fsource%3Dzhihu%26queryKey%3Dcarlsonglin&style=social&logo=zhihu">
+    width="200px"
+    height="28px"
+    src="https://img.shields.io/badge/-%E6%88%91%E7%9A%84%E8%A7%82%E5%BD%B1%E8%AE%B0%E5%BD%95%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-666?style=for-the-badge&logo=douban&labelColor=E0E0E0&link=https://movie.douban.com/people/haiwuhan/">
   </iframe>
 </div>
-
 <p></p>
-
+<div style="text-align: left;">
+  <iframe
+    style="margin-left: 1px; margin-bottom:-5px;" 
+    frameborder="0"
+    scrolling="0"
+    width="200px"
+    height="28px"
+    src="https://img.shields.io/badge/-%E6%88%91%E7%9A%84%E9%9A%8F%E6%8B%8D%E5%88%86%E4%BA%AB%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-666?style=for-the-badge&logo=instagram&labelColor=E0E0E0&link=https://www.instagram.com/songlin.me/">
+  </iframe>
+</div>
+<p></p>
 <div style="text-align: left;">
   <iframe
     style="margin-left: 1px; margin-bottom:-5px;" 
@@ -168,27 +138,35 @@ Hi，我是 武汉同学（Carl）
     style="margin-left: 1px; margin-bottom:-5px;" 
     frameborder="0"
     scrolling="0"
-    width="200px"
+    width="150px"
     height="28px"
-    src="https://img.shields.io/badge/-%E6%88%91%E7%9A%84%E8%A7%82%E5%BD%B1%E8%AE%B0%E5%BD%95%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-666?style=for-the-badge&logo=douban&labelColor=E0E0E0&link=https://movie.douban.com/people/haiwuhan/">
+    src="https://img.shields.io/badge/-%E6%9C%AC%E7%AB%99%E7%8A%B6%E6%80%81-666?style=for-the-badge&logo=githubsponsors&labelColor=E0E0E0">
   </iframe>
 </div>
-
-<p></p>
-
-<div style="text-align: left;">
-  <iframe
-    style="margin-left: 1px; margin-bottom:-5px;" 
+<iframe
+    style="margin-left: 10px; margin-bottom:-5px;"
     frameborder="0"
     scrolling="0"
-    width="200px"
-    height="28px"
-    src="https://img.shields.io/badge/-%E6%88%91%E7%9A%84%E9%9A%8F%E6%8B%8D%E5%88%86%E4%BA%AB%20%3E%20%E7%82%B9%E5%87%BB%E6%89%93%E5%BC%80-666?style=for-the-badge&logo=instagram&labelColor=E0E0E0&link=https://www.instagram.com/songlin.me/">
-  </iframe>
-</div>
-
-
-
+    width="100px"
+    height="20px"
+    src="https://img.shields.io/website?up_message=%E5%9C%A8%E7%BA%BF&url=https%3A%2F%2Fsonglin.me%2F">
+</iframe>
+<iframe
+    style="margin-left: 10px; margin-bottom:-5px;"
+    frameborder="0"
+    scrolling="0"
+    width="150px"
+    height="20px"
+    src="https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io">
+</iframe>
+<iframe
+    style="margin-left: 10px; margin-bottom:-5px;"
+    frameborder="0"
+    scrolling="0"
+    width="180px"
+    height="20px"
+    src="https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io">
+</iframe>
 
 ***
 
