@@ -15,6 +15,12 @@ Hi，我是 武汉同学（Carl）
   </iframe>
 </div>
 
+<img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fsonglin.me%2F">
+
+<img alt="github last-commit" src="https://img.shields.io/github/last-commit/CarlCit/carlcit.github.io">
+
+<img alt="github commit-activity" src="https://img.shields.io/github/commit-activity/m/CarlCit/carlcit.github.io">
+
 <div style="text-align: left;">
   <iframe
     style="margin-left: 10px; margin-bottom:-5px;" 
