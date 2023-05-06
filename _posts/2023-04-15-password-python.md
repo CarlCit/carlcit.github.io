@@ -5,7 +5,7 @@ subtitle: "macOS+Python"
 date: 2023-04-15
 header-style: text
 author: "Carl"
-tags: [macOS,软件,Python]
+tags: [macOS,软件]
 ---
 
 使用 AI 编写 Python 代码生成密码文件

@@ -5,7 +5,7 @@ subtitle: "macOS+DiffusionBee"
 date: 2023-04-20
 header-img: "img/post-bg.jpg"
 author: "Carl"
-tags: [博客]
+tags: [博客,macOS]
 ---
 
 ## 安装
