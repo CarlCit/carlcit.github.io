@@ -192,7 +192,62 @@ Hi，我是 武汉同学（Carl）
 
 ***
 
+<div class="item-container">
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317220489_604542.png" alt="item 1" onclick="window.open('https://www.apple.com.cn/macbook-pro/')">
+<p class="text-1">电脑设备</p>
+<p class="text-2">MacBook Pro M1 16"</p>
+</div>
 
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317220532_702875.png?x-oss-process=style/m" alt="item 4" onclick="window.open('https://m.tb.cn/h.UFli5Bt?tk=QFxWdms9WaB')">
+<p class="text-1">桌面设备</p>
+<p class="text-2">MagCan 硬糖磁吸充电座</p>
+</div>
+
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317208840_7161665.png?x-oss-process=style/m" alt="item 3" onclick="window.open('https://www.apple.com.cn/ipad-pro/')">
+<p class="text-1">电脑设备</p>
+<p class="text-2">iPad Pro M1 11"</p>
+</div>
+
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317220502_636744.png?x-oss-process=style/m" alt="item 3" onclick="window.open('https://www.apple.com.cn/studio-display/')">
+<p class="text-1">电脑设备</p>
+<p class="text-2">Studio Display</p>
+</div>
+
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317212839_871987.png" alt="item 4" onclick="window.open('https://www.amazon.sg/permanent-marker-superfine-refill-YYTS5-BK/dp/B000THZZI6')">
+<p class="text-1">小工具</p>
+<p class="text-2">Zebra 双头油性笔</p>
+</div>
+
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317219684_659391.png?x-oss-process=style/m" alt="item 4" onclick="window.open('https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilce7c-b')">
+<p class="text-1">摄影</p>
+<p class="text-2">Sony A7c</p>
+</div>
+
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317219692_176799.png?x-oss-process=style/m" alt="item 4" onclick="window.open('https://electronics.sony.com/imaging/lenses/all-e-mount/p/sel35f18f')">
+<p class="text-1">摄影</p>
+<p class="text-2">Sony 35mm f1.8</p>
+</div>
+
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317209488_410038.png?x-oss-process=style/m" alt="item 4" onclick="window.open('https://m.tb.cn/h.Uuo4yUE?tk=inxgdmsQu4A ')">
+<p class="text-1">充电设备</p>
+<p class="text-2">硬糖 35W 充电头</p>
+</div>
+
+<div class="item no-border-top">
+<img src="https://i.typlog.com/ping/8317179554_652258.png?x-oss-process=style/m" alt="item 4" onclick="window.open('https://www.apple.com.cn/watch/ ')">
+<p class="text-1">运动设备</p>
+<p class="text-2">Apple Watch 米兰尼斯 </p>
+</div>
+
+***
 
 
 
