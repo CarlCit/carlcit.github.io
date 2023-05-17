@@ -192,25 +192,8 @@ Hi，我是 武汉同学（Carl）
 
 ***
 
-<table>
-  <tr>
-    <td>
-      <img src="https://i.typlog.com/ping/8317220489_604542.png" alt="item 1" onclick="window.open('https://www.apple.com.cn/macbook-pro/')">
-      <p class="text-1">电脑设备</p>
-      <p class="text-2">MacBook Pro M1 16"</p>
-    </td>
-    <td>
-      <img src="https://i.typlog.com/ping/8317220532_702875.png?x-oss-process=style/m" alt="item 4" onclick="window.open('https://m.tb.cn/h.UFli5Bt?tk=QFxWdms9WaB')">
-      <p class="text-1">桌面设备</p>
-      <p class="text-2">MagCan 硬糖磁吸充电座</p>
-    </td>
-    <td>
-      <img src="https://i.typlog.com/ping/8317208840_7161665.png?x-oss-process=style/m" alt="item 3" onclick="window.open('https://www.apple.com.cn/ipad-pro/')">
-      <p class="text-1">电脑设备</p>
-      <p class="text-2">iPad Pro M1 11"</p>
-    </td>
-  </tr>
-</table>
+
+
 
 
 
