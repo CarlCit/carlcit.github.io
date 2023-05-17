@@ -20,7 +20,7 @@ Hi，我是 武汉同学（Carl）
     scrolling="0"
     width="150px"
     height="28px"
-    src="https://img.shields.io/badge/-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93-666?style=for-the-badge&logo=twitter&labelColor=E0E0E0">
+    src="https://img.shields.io/badge/-%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93-E0E0E0?style=for-the-badge&logo=twitter&labelColor=E0E0E0">
   </iframe>
 </div>
 
