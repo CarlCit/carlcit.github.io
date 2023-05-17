@@ -192,6 +192,33 @@ Hi，我是 武汉同学（Carl）
 
 ***
 
+.item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  flex-basis: calc(33.33% - 10px);
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.text-1 {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.text-2 {
+  margin: 0;
+}
+
+
 <div class="item-container">
 <div class="item no-border-top">
 <img src="https://i.typlog.com/ping/8317220489_604542.png" alt="item 1" onclick="window.open('https://www.apple.com.cn/macbook-pro/')">
