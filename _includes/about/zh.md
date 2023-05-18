@@ -8,6 +8,7 @@ Hi，我是 武汉同学（Carl）
 
 🧰	[**.tools**](https://songlin.me/pages/tools.html)  
 
+💻	[**.good**](https://goods.wtf)  
 
 
 <p></p>
