@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="zh">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/pwa/icons/512.png">
+
+  <title>Tools - 武汉同学 CarlのBlog</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/pages3.css"> <style>:root{ --t-rc-primary:0,0,0;--primary-color-hex:#000;--primary-color-rgb:0,0,0;--t-on-primary:255,255,255;--primary-text-rgb:255,255,255;--t-rc-secondary:255,255,255;--secondary-color-hex:#fff;--secondary-color-rgb:255,255,255;--t-on-secondary:0,0,0;--secondary-text-rgb:0,0,0 }</style>
+
+    <link rel="stylesheet" href="/css/pages.css">
+    <link rel="stylesheet" href="/css/pages2.css">
+
+</head>
+
+
+<body>
+  <header class="head">
+    <div class="head_wrap">
+      <div class="head_inner">
+
+        <div class="head_logo">
+          <a href="/">
+            <span>CarlのBlog</span>
+          </a>
+        </div>
+
+        <div id="HeadNav" class="head_links">
+          <nav class="head_primary">
+            <ul class="links count-2">
+              <li class="link">
+                <a class="link_title" href="/pages/tools.html"><span>.tools</span></a>
+              </li>
+
+              <li class="link">
+                <a class="link_title" href="/about"><span>.about</span></a>
+              </li>
+            </ul>
+          </nav>
+
+          <nav class="head_secondary">
+            <ul class="links count-0"></ul>
+          </nav>
+        </div>
+
+        <div class="head_actions">
+
+          <div class="theme-toggle">
+            <input type="checkbox" id="js-theme-toggle">
+              <label for="js-theme-toggle">
+                <span class="theme-toggle_handle">
+                </span>
+                  <svg class="sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="Light theme icon (sun)">
+                    <circle cx="12" cy="12" r="5" fill="currentColor"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                  </svg>
+
+                  <svg class="moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-label="Dark theme icon (moon)">
+                    <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" fill="currentColor" stroke="none"></path>
+                  </svg>
+              </label>
+          </div>
+
+          <button type="button" class="head_menu js-toggle-menu" aria-label="mobile navigation" aria-expanded="false" aria-controls="HeadNav">
+            <span class="hamburger">
+            <span class="hamburger_1"></span>
+            <span class="hamburger_2"></span>
+            <span class="hamburger_3"></span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <div class="main">
+    <div class="inner">
+      <article role="main" class="h-entry" itemscope itemtype="http://schema.org/Article">
+        <h1 class="p-name" itemprop="headline"><a href="/pages/movie.html">Movie</a></h1>
+        <h2 class="p-summary">一些非常推荐的电影收藏</h2>
+
+        <div class="e-content js-content yue" itemprop="articleBody">
+          <style>.item-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0;
+          }
+          .item {
+            box-sizing: border-box;
+            background-color:  #00000009;
+            padding: 16px;
+            margin: 8px 8px 0px 0;
+            width: calc(25% - 16px);
+            text-align: left;
+            border-radius: 6px; 
+          }
+          .item.no-border-top {
+            border-top: 0px solid #f7f7f7;
+          }
+          .item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.2s ease-in-out;
+            cursor: pointer;
+          }
+          .item:hover img {
+            transform: translateY(-4px);
+          }
+          .item .text-1 {
+            font-size: 14px;
+            opacity: 0.5;
+            font-size: 12px;
+            margin: 2px 0;
+          }
+          .item .text-2 {
+            font-size: 14px;
+            opacity: 0.9;
+            margin: -2px 0 0 0;
+          }
+          @media screen and (max-width: 600px) {
+            .item {
+              width: calc(100% - 16px);
+              margin-right: 0;
+            }
+          }
+          </style>
+
+            <div class="item-container">
+
+              <div class="item no-border-top">
+                <img src="https://img9.doubanio.com/view/photo/s_ratio_poster/public/p616779645.webp" alt="The Godfather" onclick="window.open('https://movie.douban.com/subject/1291841/')">
+                <p class="text-1">1972 / 9.3</p>
+                <p class="text-2">The Godfather"</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305180952595.png" alt="iMac 27" 5K" onclick="window.open('https://support.apple.com/kb/SP760?viewlocale=zh_CN&locale=zh_HK')">
+                <p class="text-1">电脑设备</p>
+                <p class="text-2">iMac 27" 5K</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181002436.png" alt="MacBook Pro 13" onclick="window.open('https://support.apple.com/kb/SP691?viewlocale=zh_TW&locale=zh_HK')">
+                <p class="text-1">电脑设备</p>
+                <p class="text-2">MacBook Pro 13"</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181007469.png" alt="Apple TV 4K" onclick="window.open('https://support.apple.com/kb/SP845?viewlocale=zh_HK&locale=zh_HK')">
+                <p class="text-1">影音设备</p>
+                <p class="text-2">Apple TV 4K</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181011051.png" alt="Apple Watch Series 4" onclick="window.open('https://support.apple.com/kb/SP778?viewlocale=zh_CN&locale=zh_CN')">
+                <p class="text-1">运动设备</p>
+                <p class="text-2">Apple Watch Series 4</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181126282.png" alt="iPad Air 3" onclick="window.open('https://support.apple.com/kb/SP787?viewlocale=zh_CN&locale=zh_CN')">
+                <p class="text-1">平板电脑</p>
+                <p class="text-2">iPad Air 3</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181358382.png" alt="HomePod 1" onclick="window.open('https://support.apple.com/kb/SP773?viewlocale=zh_CN&locale=zh_CN')">
+                <p class="text-1">影音设备</p>
+                <p class="text-2">HomePod 1</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181025368.png" alt="AirPods Pro 1" onclick="window.open('https://support.apple.com/kb/SP863?viewlocale=zh_CN&locale=zh_CN')">
+                <p class="text-1">影音设备</p>
+                <p class="text-2">AirPods Pro 1</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181029273.png" alt="Apple Pencil 1" onclick="window.open('https://support.apple.com/kb/SP740?viewlocale=zh_CN&locale=zh_CN')">
+                <p class="text-1">配件</p>
+                <p class="text-2">Apple Pencil 1</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181047121.png" alt="iPod touch 4" onclick="window.open('https://support.apple.com/kb/SP594?viewlocale=zh_CN&locale=zh_CN')">
+                <p class="text-1">影音设备</p>
+                <p class="text-2">iPod touch 4</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181039773.png" alt="Switch 续航版" onclick="window.open('https://www.nintendo.com/switch/system/')">
+                <p class="text-1">游戏设备</p>
+                <p class="text-2">Switch 续航版</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181050250.png" alt="QNAP TS-532X" onclick="window.open('https://www.qnap.com.cn/zh-cn/product/ts-532x')">
+                <p class="text-1">存储设备</p>
+                <p class="text-2">QNAP TS-532X</p>
+              </div>
+              <div class="item no-border-top">
+              <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181058354.png" alt="item 4" onclick="window.open('https://store.ui.com/products/unifi-ap6-professional')">
+                <p class="text-1">网络设备</p>
+                <p class="text-2">UniFi AP U6 Pro</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181104669.png" alt="Switch 8 PoE 150W" onclick="window.open('https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w')">
+                <p class="text-1">网络设备</p>
+                <p class="text-2">Switch 8 PoE 150W</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181108138.png" alt="UniFi USG-3P" onclick="window.open('https://store.ui.com/products/unifi-security-gateway')">
+                <p class="text-1">网络设备</p>
+                <p class="text-2">UniFi USG-3P</p>
+              </div>
+              <div class="item no-border-top">
+                <img src="https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/img/202305181323175.png" alt="NanoPi R2S" onclick="window.open('https://wiki.friendlyelec.com/wiki/index.php/NanoPi_R2S/zh')">
+                <p class="text-1">网络设备</p>
+                <p class="text-2">NanoPi R2S</p>
+              </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+      </article>
+
+    </div>
+  </div>
+
+
+    <div class="powered-by">
+      <div>Powered by <a href="/">CarlのBlog</a></div>
+    </div>
+  
+  <!-- 暗黑主题和手机菜单栏 -->
+  <script src="/js/pages.js"></script>
+
+</body>
+
+</html>
