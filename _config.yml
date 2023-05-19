@@ -106,14 +106,14 @@ friends: [
         title: ".tools",
         href: "https://songlin.me/pages/tools.html"
     },{
-        title: ".movie",
-        href: "https://songlin.me/pages/tools.html"
-    },{
         title: ".phone",
-        href: "https://songlin.me/pages/tools.html"
+        href: "https://songlin.me/pages/phone.html"
     },{
-        title: ".books",
-        href: "https://songlin.me/pages/tools.html"
+        title: ".movie",
+        href: "https://songlin.me/pages/movie.html"
+    },{
+        title: ".music",
+        href: "https://songlin.me/pages/music.html"
     },{
         title: "Google",
         href: "https://google.com"
