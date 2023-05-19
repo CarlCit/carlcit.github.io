@@ -103,17 +103,8 @@ page-mathjax: false   # false
 # Friends
 friends: [
       {
-        title: ".tools",
+        title: ".Tools 🧰",
         href: "https://songlin.me/pages/tools.html"
-    },{
-        title: ".phone",
-        href: "https://songlin.me/pages/phone.html"
-    },{
-        title: ".movie",
-        href: "https://songlin.me/pages/movie.html"
-    },{
-        title: ".music",
-        href: "https://songlin.me/pages/music.html"
     },{
         title: "Google",
         href: "https://google.com"
