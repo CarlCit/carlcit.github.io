@@ -510,7 +510,7 @@ a {
 }
 
 .inner {
-	max-width: 99%;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 1em;
 	box-sizing: border-box
