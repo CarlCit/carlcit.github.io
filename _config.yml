@@ -103,7 +103,7 @@ page-mathjax: false   # false
 # Friends
 friends: [
       {
-        title: ".Tools 🧰",
+        title: "🧰 .Tools",
         href: "https://songlin.me/pages/tools.html"
     },{
         title: "Google",
