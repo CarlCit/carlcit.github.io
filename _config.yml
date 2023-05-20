@@ -103,11 +103,8 @@ page-mathjax: false   # false
 # Friends
 friends: [
       {
-        title: "🧰 .Tools",
+        title: "🎈 .Tools",
         href: "https://songlin.me/pages/tools.html"
-    },{
-        title: "Google",
-        href: "https://google.com"
     },{
         title: "AIHI",
         href: "https://aihi.one"
@@ -115,7 +112,7 @@ friends: [
         title: "ChatGPT",
         href: "https://ai.aihi.one"
     },{
-        title: "涅槃",
+        title: "涅槃博客",
         href: "https://nie.su"
     }
 ]
