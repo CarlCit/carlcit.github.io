@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: true 
-# instagram_username: songlin.me
+instagram_username: songlin.me
 weibo_username:     songlincarl
 # zhihu_username:     carlsonglin
-youtube_username:   UCctxtvu9G4AfYFabLWinYDg
+# youtube_username:   UCctxtvu9G4AfYFabLWinYDg
 # github_username:  CarlCit
 twitter_username: carlsonglin
 
