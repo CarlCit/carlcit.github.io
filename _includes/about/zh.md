@@ -6,9 +6,7 @@ Hi，我是 武汉同学（Carl）
 
 
 
-🧰	[**.tools**](https://songlin.me/pages/tools.html)  
-
-💻	[**.good**](https://goods.wtf)  
+🎈	[**.tools**](https://songlin.me/pages/tools.html)  源自这个网站	[goods.wtf](https://goods.wtf)  
 
 
 <p></p>
