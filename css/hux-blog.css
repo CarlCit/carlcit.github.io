@@ -1773,6 +1773,4 @@ img::-moz-selection {
 .no-scroll {
   overflow-y: hidden;
 }
-video::-webkit-media-controls {
-    display:none !important;
-}
+
