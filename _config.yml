@@ -18,7 +18,7 @@ weibo_username:     songlincarl
 # zhihu_username:     carlsonglin
 # youtube_username:   UCctxtvu9G4AfYFabLWinYDg
 # github_username:  CarlCit
-twitter_username: carlsonglin
+# twitter_username: carlsonglin
 
 
 
@@ -108,11 +108,5 @@ friends: [
     },{
         title: "ChatGPT",
         href: "https://ai.aihi.one"
-    },{
-        title: "积薪",
-        href: "https://firewood.news"
-    },{
-        title: "涅槃博客",
-        href: "https://nie.su"
-    }
+    },
 ]
