@@ -4,7 +4,6 @@ title: "2018年高善文非公开演讲“年轻人洗洗睡吧”"
 subtitle: "#高善文演讲整理"
 date: 2024-12-05
 author: "Carl"
-header-img: "img/post-bg.jpg"
 header-style: text
 tags: [高善文,金融]
 ---
