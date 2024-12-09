@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "bc2ecdf9163b3f3f",
+        "id": "e404b74dfd6faae1",
         "type": "tabs",
         "children": [
           {
-            "id": "55eee1d550835282",
+            "id": "1b87771266a1b9ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-12-05-gaoshanwen.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "2024-12-05-gaoshanwen"
-            }
-          },
-          {
-            "id": "2f1e8354bc63e7f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2024-12-05-luxun.md",
+                "file": "2024-12-09-bear.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-05-luxun"
+              "title": "2024-12-09-bear"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,13 +162,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2f1e8354bc63e7f3",
+  "active": "1b87771266a1b9ec",
   "lastOpenFiles": [
+    "2021-01-09-jekyll-macos-github.md",
+    "2021-01-07-hello-2021.md",
+    "2024-12-09-bear.md",
+    "2024-12-05-luxun.md",
     "2024-12-03-vps.md",
     "2024-12-05-gaoshanwen.md",
     "2024-12-02-fupeng.md",
     "2024-12-06-wanwu.md",
-    "2024-12-05-luxun.md",
     "2024-04-10-piexl4.md",
     "2024-01-21-Dyson-v8.md",
     "2024-03-25-vcard.md",
