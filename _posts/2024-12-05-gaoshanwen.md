@@ -9,9 +9,9 @@ tags:
   - 高善文
   - 金融
 ---
-# 概要总结
+## 概要总结
 ![截屏2024-12-05 11.46.42](https://github-blog-carl.oss-cn-hangzhou.aliyuncs.com/pages/%E6%88%AA%E5%B1%8F2024-12-05%2011.46.42.png?x-oss-process=style/pages)
-# 演讲原文
+## 演讲原文
 
 **高善文演讲整理
 
