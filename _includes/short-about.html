@@ -6,37 +6,37 @@
     <div id="mapmyvisitors-container" style="text-align: center; margin-bottom: 20px;">
       <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=morou-1vua_cQ80H-dYo2rga6lnWldu00gE2OoM1rok"></script>
       <style>
-        /* 调整 MapMyVisitors 地球大小 - 修改下面的 width 值来调整大小（默认 200px） */
+        /* 让地球填满容器并居中显示 */
         #mapmyvisitors-container {
           display: flex !important;
           justify-content: center !important;
           align-items: center !important;
           width: 100% !important;
         }
-        /* 强制覆盖内联样式 */
+        /* 强制覆盖内联样式，填满容器 */
         #mapmyvisitors-container .mmvst_outer {
-          width: 200px !important;
-          height: 200px !important;
-          max-width: 200px !important;
-          max-height: 200px !important;
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
           margin: 0 auto !important;
           overflow: visible !important;
           box-sizing: border-box !important;
+          aspect-ratio: 1 / 1 !important;
         }
         #mapmyvisitors-container .mmvst_inner {
-          width: 200px !important;
-          height: 200px !important;
+          width: 100% !important;
+          height: 100% !important;
         }
         #mapmyvisitors-container .mmvst_globe {
-          width: 200px !important;
-          height: 200px !important;
+          width: 100% !important;
+          height: 100% !important;
         }
         #mapmyvisitors-container .mmvst_map {
-          width: 200px !important;
-          height: 200px !important;
+          width: 100% !important;
+          height: 100% !important;
         }
         #mapmyvisitors-container .mmvst_bottom_shadow {
-          width: 200px !important;
+          width: 100% !important;
           height: auto !important;
         }
       </style>
