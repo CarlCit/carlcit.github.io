@@ -3,7 +3,22 @@
   <h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
   <div class="short-about">
     <!-- RevolverMaps 访问者地图 -->
-    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5nsk0yoefdr&amp;m=0&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33" async="async"></script>
+    <div id="revolvermaps-container" style="min-height: 100px;">
+      <script type="text/javascript">
+        // 添加错误处理和加载检测
+        (function() {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.async = true;
+          script.src = 'https://rf.revolvermaps.com/0/0/8.js?i=5nsk0yoefdr&m=0&c=ff0000&cr1=ffffff&f=arial&l=33';
+          script.onerror = function() {
+            console.error('RevolverMaps 脚本加载失败');
+            document.getElementById('revolvermaps-container').innerHTML = '<p style="color: #999; font-size: 12px;">访问者地图暂时无法加载</p>';
+          };
+          document.getElementById('revolvermaps-container').appendChild(script);
+        })();
+      </script>
+    </div>
     {% if site.sidebar-about-description %}
     <p>{{site.sidebar-about-description}}</p>
     {% endif %}
