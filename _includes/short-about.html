@@ -6,17 +6,30 @@
     <div id="mapmyvisitors-container" style="text-align: center; margin-bottom: 20px;">
       <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=morou-1vua_cQ80H-dYo2rga6lnWldu00gE2OoM1rok"></script>
       <style>
-        /* 调整 MapMyVisitors 地球大小 - 修改下面的 width 和 height 值来调整大小（默认 200px） */
-        #mapmyvisitors-container canvas,
-        #mapmyvisitors-container iframe,
-        #mapmyvisitors-container > div,
-        #mapmyvisitors-container div[class*="globe"],
-        #mapmyvisitors-container div[id*="mmvst"] {
+        /* 调整 MapMyVisitors 地球大小 - 修改下面的数值来调整大小（默认 200px） */
+        #mapmyvisitors-container .mmvst_outer {
           width: 200px !important;
           height: 200px !important;
           max-width: 200px !important;
           max-height: 200px !important;
           margin: 0 auto !important;
+          overflow: hidden !important;
+          box-sizing: border-box !important;
+        }
+        #mapmyvisitors-container .mmvst_outer canvas,
+        #mapmyvisitors-container .mmvst_outer iframe,
+        #mapmyvisitors-container canvas,
+        #mapmyvisitors-container iframe {
+          width: 200px !important;
+          height: 200px !important;
+          max-width: 200px !important;
+          max-height: 200px !important;
+          display: block !important;
+        }
+        /* 如果上面的方法不行，使用 transform scale 缩放 */
+        #mapmyvisitors-container .mmvst_outer {
+          transform: scale(0.7) !important;
+          transform-origin: center center !important;
         }
       </style>
     </div>
