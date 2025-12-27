@@ -2,23 +2,8 @@
   <hr>
   <h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
   <div class="short-about">
-    <!-- RevolverMaps 访问者地图 -->
-    <div id="revolvermaps-container" style="min-height: 100px;">
-      <script type="text/javascript">
-        // 添加错误处理和加载检测
-        (function() {
-          var script = document.createElement('script');
-          script.type = 'text/javascript';
-          script.async = true;
-          script.src = 'https://rf.revolvermaps.com/0/0/8.js?i=5nsk0yoefdr&m=0&c=ff0000&cr1=ffffff&f=arial&l=33';
-          script.onerror = function() {
-            console.error('RevolverMaps 脚本加载失败');
-            document.getElementById('revolvermaps-container').innerHTML = '<p style="color: #999; font-size: 12px;">访问者地图暂时无法加载</p>';
-          };
-          document.getElementById('revolvermaps-container').appendChild(script);
-        })();
-      </script>
-    </div>
+    <!-- MapMyVisitors 访问者地图 -->
+    <script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=morou-1vua_cQ80H-dYo2rga6lnWldu00gE2OoM1rok"></script>
     {% if site.sidebar-about-description %}
     <p>{{site.sidebar-about-description}}</p>
     {% endif %}
@@ -27,5 +12,5 @@
   </div>
 </section>
 
-<!-- 视频代码（已注释，如需使用视频替代访问者地图，可取消注释并注释掉上面的 RevolverMaps 脚本） -->
+<!-- 视频代码（已注释，如需使用视频替代访问者地图，可取消注释并注释掉上面的 MapMyVisitors 脚本） -->
 <!-- <video width="200" style="border-radius: 10px;" autoplay loop muted controlsList="nodownload"><source src="{{site.sidebar-avatar}}" type="video/mp4">抱歉，您的浏览器不支持内嵌视频，建议您升级或更换浏览器后查看</video> -->
